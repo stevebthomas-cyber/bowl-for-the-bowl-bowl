@@ -574,7 +574,7 @@ export async function applyCharacteristicImprovement(
   };
 
   const statKey = improvementType.toLowerCase();
-  updates[statKey] = player[statKey] + improvementValue;
+  updates[statKey] = (player as Record<string, any>)[statKey] + improvementValue;
 
   const { error: updateError } = await supabase
     .from('players')

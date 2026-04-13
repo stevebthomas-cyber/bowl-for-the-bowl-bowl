@@ -139,7 +139,7 @@ export async function getAvailableStarPlayers(teamId: string): Promise<StarPlaye
     // Check excluded_leagues
     if (specialRulesLeague && sp.excluded_leagues && sp.excluded_leagues.length > 0) {
       const isExcluded = sp.excluded_leagues.some(
-        league => league.toLowerCase() === specialRulesLeague.toLowerCase()
+        (league: string) => league.toLowerCase() === specialRulesLeague.toLowerCase()
       );
       if (isExcluded) {
         return false;

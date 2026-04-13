@@ -1,12 +1,14 @@
 import { useState, useEffect } from 'react';
+import type { ReactNode } from 'react';
 import { searchSkillOrTrait } from '../../lib/skills-queries';
 import type { Skill, Trait } from '../../lib/skills-queries';
 
 interface SkillTooltipProps {
   skill: string;
+  children?: ReactNode;
 }
 
-export default function SkillTooltip({ skill }: SkillTooltipProps) {
+export default function SkillTooltip({ skill, children }: SkillTooltipProps) {
   const [skillData, setSkillData] = useState<{ type: 'skill' | 'trait', data: Skill | Trait } | null>(null);
   const [isLoading, setIsLoading] = useState(false);
 
@@ -41,7 +43,7 @@ export default function SkillTooltip({ skill }: SkillTooltipProps) {
   return (
     <span className="group relative inline-block">
       <span className="cursor-help border-b border-dotted border-gray-400 hover:border-blue-500">
-        {skill}
+        {children ?? skill}
       </span>
 
       {/* Tooltip */}

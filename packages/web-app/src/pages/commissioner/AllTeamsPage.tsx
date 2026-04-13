@@ -77,7 +77,7 @@ export default function AllTeamsPage() {
 
           return {
             ...team,
-            owner: ownership?.users
+            owner: ownership?.users as Team['owner']
           };
         })
       );

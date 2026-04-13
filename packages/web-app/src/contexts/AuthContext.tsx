@@ -1,7 +1,7 @@
 import React, { createContext, useState, useEffect, ReactNode } from 'react';
 import { AuthenticatedUser } from '../types/auth';
 
-interface AuthContextType {
+export interface AuthContextType {
   user: AuthenticatedUser | null;
   isLoading: boolean;
   isAuthenticated: boolean;

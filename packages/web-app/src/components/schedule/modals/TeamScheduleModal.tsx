@@ -95,7 +95,7 @@ export default function TeamScheduleModal({
         .single();
 
       if (teamError) throw teamError;
-      setTeamInfo(team);
+      setTeamInfo(team as unknown as TeamInfo);
 
       // Load all matches for this team
       const { data: matchData, error: matchError } = await supabase
@@ -120,7 +120,7 @@ export default function TeamScheduleModal({
         .order('match_number', { ascending: true });
 
       if (matchError) throw matchError;
-      setMatches(matchData || []);
+      setMatches((matchData || []) as unknown as TeamMatch[]);
     } catch (err) {
       console.error('Error loading team data:', err);
       alert('Failed to load team information');

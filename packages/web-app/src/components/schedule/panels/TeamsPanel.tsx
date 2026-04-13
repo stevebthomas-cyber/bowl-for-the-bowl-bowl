@@ -93,15 +93,15 @@ export default function TeamsPanel({ leagueId }: TeamsPanelProps) {
     if (sortBy === 'alphabetical') {
       return a.name.localeCompare(b.name);
     } else if (sortBy === 'division') {
-      if (a.division === null && b.division === null) return 0;
-      if (a.division === null) return 1;
-      if (b.division === null) return -1;
+      if (a.division == null && b.division == null) return 0;
+      if (a.division == null) return 1;
+      if (b.division == null) return -1;
       if (a.division !== b.division) return a.division - b.division;
       return a.name.localeCompare(b.name);
     } else if (sortBy === 'unassigned') {
-      if (a.division === null && b.division === null) return a.name.localeCompare(b.name);
-      if (a.division === null) return -1;
-      if (b.division === null) return 1;
+      if (a.division == null && b.division == null) return a.name.localeCompare(b.name);
+      if (a.division == null) return -1;
+      if (b.division == null) return 1;
       return a.name.localeCompare(b.name);
     }
     return 0;
