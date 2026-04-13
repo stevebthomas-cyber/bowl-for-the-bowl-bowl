@@ -1,0 +1,4799 @@
+{
+  "Name": {
+    "name": "Name",
+    "leagues": [
+      "League 1",
+      "League 2"
+    ],
+    "specialRules": [
+      "Special Rules 1",
+      "Special Rules 2",
+      "Special Rule 3",
+      "Special Rule 4",
+      "Special Rule 5",
+      "Special Rule 6",
+      "Special Rule 7"
+    ],
+    "minRerolls": 0,
+    "maxRerolls": 8,
+    "rerollCost": 0,
+    "apothecary": false,
+    "positions": []
+  },
+  "Amazon": {
+    "name": "Amazon",
+    "leagues": [
+      "Lustrian Superleague"
+    ],
+    "specialRules": [],
+    "minRerolls": 0,
+    "maxRerolls": 8,
+    "rerollCost": 80000,
+    "apothecary": true,
+    "positions": [
+      {
+        "minQty": 0,
+        "maxQty": 16,
+        "name": "Eagle Warrior",
+        "positionType": "Lineman",
+        "race": "Human",
+        "cost": 50000,
+        "movement": 6,
+        "strength": 3,
+        "agility": 3,
+        "passing": 4,
+        "armourValue": 8,
+        "skills": [
+          "Dodge",
+          "General"
+        ],
+        "primarySkills": [
+          "General"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Python Warrior",
+        "positionType": "Thrower",
+        "race": "Human",
+        "cost": 80000,
+        "movement": 6,
+        "strength": 3,
+        "agility": 3,
+        "passing": 3,
+        "armourValue": 8,
+        "skills": [
+          "Dodge",
+          "On the Ball",
+          "Pass",
+          "Safe Pass",
+          "General",
+          "Passing"
+        ],
+        "primarySkills": [
+          "General",
+          "Passing"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Piranaha Warrior",
+        "positionType": "Blitzer",
+        "race": "Human",
+        "cost": 90000,
+        "movement": 7,
+        "strength": 3,
+        "agility": 3,
+        "passing": 4,
+        "armourValue": 8,
+        "skills": [
+          "Dodge",
+          "Hit and Run",
+          "Jump Up",
+          "Agility",
+          "General"
+        ],
+        "primarySkills": [
+          "Agility",
+          "General"
+        ],
+        "secondarySkills": [
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Jaguar Warrior",
+        "positionType": "Blocker",
+        "race": "Human",
+        "cost": 110000,
+        "movement": 6,
+        "strength": 4,
+        "agility": 3,
+        "passing": 4,
+        "armourValue": 9,
+        "skills": [
+          "Defensive",
+          "Dodge",
+          "General",
+          "Strength"
+        ],
+        "primarySkills": [
+          "General",
+          "Strength"
+        ],
+        "secondarySkills": [
+          "Agility"
+        ]
+      }
+    ]
+  },
+  "Black Orc": {
+    "name": "Black Orc",
+    "leagues": [
+      "Badlands Brawl"
+    ],
+    "specialRules": [
+      "Brawlin' Brutes",
+      "Bribery and Corruption"
+    ],
+    "minRerolls": 0,
+    "maxRerolls": 8,
+    "rerollCost": 60000,
+    "apothecary": true,
+    "positions": [
+      {
+        "minQty": 0,
+        "maxQty": 16,
+        "name": "Goblin Bruiser",
+        "positionType": "Lineman",
+        "race": "Goblin",
+        "cost": 45000,
+        "movement": 6,
+        "strength": 2,
+        "agility": 3,
+        "passing": 4,
+        "armourValue": 8,
+        "skills": [
+          "Dodge",
+          "Right Stuff",
+          "Stunty",
+          "Thick Skull"
+        ],
+        "primarySkills": [
+          "Agility",
+          "Devious"
+        ],
+        "secondarySkills": [
+          "General",
+          "Passing",
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 6,
+        "name": "Black Orc",
+        "positionType": "Blocker",
+        "race": "Orc",
+        "cost": 90000,
+        "movement": 4,
+        "strength": 4,
+        "agility": 4,
+        "passing": 5,
+        "armourValue": 10,
+        "skills": [
+          "Brawler",
+          "Grab"
+        ],
+        "primarySkills": [
+          "General",
+          "Strength"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "Devious"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 1,
+        "name": "Trained Troll",
+        "positionType": "Big Guy",
+        "race": "Troll",
+        "cost": 115000,
+        "movement": 4,
+        "strength": 5,
+        "agility": 5,
+        "passing": 5,
+        "armourValue": 10,
+        "skills": [
+          "Always Hungry",
+          "Mighty Blow",
+          "Projectile Vomit",
+          "Really Stupid",
+          "Regeneration",
+          "Throw Team-mate"
+        ],
+        "primarySkills": [
+          "Strength"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "General",
+          "Passing"
+        ]
+      }
+    ]
+  },
+  "Bretonnian": {
+    "name": "Bretonnian",
+    "leagues": [
+      "Old World Classic"
+    ],
+    "specialRules": [],
+    "minRerolls": 0,
+    "maxRerolls": 8,
+    "rerollCost": 60000,
+    "apothecary": true,
+    "positions": [
+      {
+        "minQty": 0,
+        "maxQty": 16,
+        "name": "Squire",
+        "positionType": "Lineman",
+        "race": "Human",
+        "cost": 50000,
+        "movement": 6,
+        "strength": 3,
+        "agility": 3,
+        "passing": 4,
+        "armourValue": 8,
+        "skills": [
+          "Wrestle"
+        ],
+        "primarySkills": [
+          "General"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Knight Catcher",
+        "positionType": "Catcher",
+        "race": "Human",
+        "cost": 85000,
+        "movement": 7,
+        "strength": 3,
+        "agility": 3,
+        "passing": 4,
+        "armourValue": 9,
+        "skills": [
+          "Cat",
+          "Catch",
+          "Nerves of Steel"
+        ],
+        "primarySkills": [
+          "Agility",
+          "General"
+        ],
+        "secondarySkills": [
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Knight Thrower",
+        "positionType": "Thrower",
+        "race": "Human",
+        "cost": 80000,
+        "movement": 6,
+        "strength": 3,
+        "agility": 3,
+        "passing": 3,
+        "armourValue": 9,
+        "skills": [
+          "Dauntless",
+          "Nerves of Steel",
+          "Pass"
+        ],
+        "primarySkills": [
+          "General",
+          "Passing"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "Stength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Grail Knight",
+        "positionType": "Blitzer",
+        "race": "Human",
+        "cost": 95000,
+        "movement": 7,
+        "strength": 3,
+        "agility": 3,
+        "passing": 4,
+        "armourValue": 10,
+        "skills": [
+          "Block",
+          "Dauntless",
+          "Steady Footing"
+        ],
+        "primarySkills": [
+          "General",
+          "Strength"
+        ],
+        "secondarySkills": [
+          "Agility"
+        ]
+      }
+    ]
+  },
+  "Chaos Chosen": {
+    "name": "Chaos Chosen",
+    "leagues": [
+      "Chaos Clash"
+    ],
+    "specialRules": [
+      "Favoured of Khorn",
+      "Favoured of Nurgle",
+      "Favoured of Slaanesh",
+      "Favoured of Tzeentch",
+      "Favoured of Hashut",
+      "Favoured of The Great Horned Rat",
+      "Favoured of Undivided"
+    ],
+    "minRerolls": 0,
+    "maxRerolls": 8,
+    "rerollCost": 50000,
+    "apothecary": true,
+    "positions": [
+      {
+        "minQty": 0,
+        "maxQty": 16,
+        "name": "Beastmen Lineman",
+        "positionType": "Lineman",
+        "race": "Beastman",
+        "cost": 55000,
+        "movement": 6,
+        "strength": 3,
+        "agility": 3,
+        "passing": 3,
+        "armourValue": 9,
+        "skills": [
+          "Horns",
+          "Thick Skull"
+        ],
+        "primarySkills": [
+          "General",
+          "Mutation"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "Devious",
+          "Passing"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 4,
+        "name": "Chaos Chose",
+        "positionType": "Blocker",
+        "race": "Human",
+        "cost": 100000,
+        "movement": 5,
+        "strength": 4,
+        "agility": 3,
+        "passing": 5,
+        "armourValue": 10,
+        "skills": [
+          "Arm Bar"
+        ],
+        "primarySkills": [
+          "General",
+          "Mutation"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "Devious"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 1,
+        "name": "Troll",
+        "positionType": "Big Guy",
+        "race": "Troll",
+        "cost": 115000,
+        "movement": 4,
+        "strength": 5,
+        "agility": 5,
+        "passing": 5,
+        "armourValue": 10,
+        "skills": [
+          "Always Hungry",
+          "Loner (4+)",
+          "Mighty Blow",
+          "Projectile Vomit",
+          "Really Stupid",
+          "Regenration"
+        ],
+        "primarySkills": [
+          "Mutation",
+          "Strength"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "General",
+          "Passing"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 1,
+        "name": "Ogre",
+        "positionType": "Big Guy",
+        "race": "Ogre",
+        "cost": 140000,
+        "movement": 5,
+        "strength": 5,
+        "agility": 4,
+        "passing": 5,
+        "armourValue": 10,
+        "skills": [
+          "Bone Head",
+          "Loner (4+)",
+          "Mighty Blow",
+          "Thick Skull",
+          "Throw Team-mate"
+        ],
+        "primarySkills": [
+          "Mutation",
+          "Strength"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "General"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 1,
+        "name": "Minotaur",
+        "positionType": "Big Guy",
+        "race": "Minotaur",
+        "cost": 150000,
+        "movement": 5,
+        "strength": 5,
+        "agility": 4,
+        "passing": 6,
+        "armourValue": 9,
+        "skills": [
+          "Frenzy",
+          "Loner (4+)",
+          "Mighty Blow",
+          "Thick Skull",
+          "Unchannelled Fury"
+        ],
+        "primarySkills": [
+          "Mutation",
+          "Strength"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "General"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 0,
+        "name": "1",
+        "positionType": "",
+        "race": "Chaos Chosen",
+        "cost": 0,
+        "movement": 0,
+        "strength": 0,
+        "agility": 0,
+        "passing": 0,
+        "armourValue": 0,
+        "skills": [],
+        "primarySkills": [],
+        "secondarySkills": []
+      }
+    ]
+  },
+  "Chaos Dwarf": {
+    "name": "Chaos Dwarf",
+    "leagues": [
+      "Badlands Brawl",
+      "Chaos Clash"
+    ],
+    "specialRules": [
+      "Favoured of Hashut"
+    ],
+    "minRerolls": 0,
+    "maxRerolls": 8,
+    "rerollCost": 70000,
+    "apothecary": true,
+    "positions": [
+      {
+        "minQty": 0,
+        "maxQty": 16,
+        "name": "Hobgoblin Lineman",
+        "positionType": "Lineman",
+        "race": "Goblin",
+        "cost": 40000,
+        "movement": 6,
+        "strength": 3,
+        "agility": 3,
+        "passing": 4,
+        "armourValue": 8,
+        "skills": [],
+        "primarySkills": [
+          "Devious"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "General",
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Sneaky Stabba",
+        "positionType": "Special",
+        "race": "Goblin",
+        "cost": 60000,
+        "movement": 6,
+        "strength": 3,
+        "agility": 3,
+        "passing": 5,
+        "armourValue": 8,
+        "skills": [
+          "Shadowing",
+          "Stab"
+        ],
+        "primarySkills": [
+          "Devious",
+          "General"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 4,
+        "name": "Chaos Dwarf Blocker",
+        "positionType": "Blocker",
+        "race": "Dwarf",
+        "cost": 70000,
+        "movement": 4,
+        "strength": 3,
+        "agility": 4,
+        "passing": 6,
+        "armourValue": 10,
+        "skills": [
+          "Block",
+          "Iron Hard Skin",
+          "Thick Skull"
+        ],
+        "primarySkills": [
+          "General",
+          "Strength"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "Devious",
+          "Mutation"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Flamesmith",
+        "positionType": "Special",
+        "race": "Dwarf",
+        "cost": 80000,
+        "movement": 5,
+        "strength": 3,
+        "agility": 4,
+        "passing": 6,
+        "armourValue": 10,
+        "skills": [
+          "Brawler",
+          "Breathe Fire",
+          "Distrubing Presence",
+          "Thick Skull"
+        ],
+        "primarySkills": [
+          "General",
+          "Strength"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "Devious",
+          "Mutation"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Bull Centaur",
+        "positionType": "Blitzer",
+        "race": "Dwarf",
+        "cost": 130000,
+        "movement": 6,
+        "strength": 4,
+        "agility": 4,
+        "passing": 6,
+        "armourValue": 10,
+        "skills": [
+          "Sprint",
+          "Sure Feet",
+          "Thick Skull",
+          "Unsteady"
+        ],
+        "primarySkills": [
+          "General",
+          "Strength"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "Devious",
+          "Mutation"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 1,
+        "name": "Minotaur",
+        "positionType": "Big Guy",
+        "race": "Minotaur",
+        "cost": 150000,
+        "movement": 5,
+        "strength": 5,
+        "agility": 4,
+        "passing": 6,
+        "armourValue": 9,
+        "skills": [
+          "Frenzy",
+          "Horns",
+          "Loner (4+)",
+          "Might Blow",
+          "Thick Skull",
+          "Unchannelled Fury"
+        ],
+        "primarySkills": [
+          "Mutation",
+          "Strength"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "General"
+        ]
+      }
+    ]
+  },
+  "Chaos Renegade": {
+    "name": "Chaos Renegade",
+    "leagues": [
+      "Chaos Clash"
+    ],
+    "specialRules": [
+      "Favoured of Khorn",
+      "Favoured of Nurgle",
+      "Favoured of Slaanesh",
+      "Favoured of Tzeentch",
+      "Favoured of Undivided"
+    ],
+    "minRerolls": 0,
+    "maxRerolls": 8,
+    "rerollCost": 70000,
+    "apothecary": true,
+    "positions": [
+      {
+        "minQty": 0,
+        "maxQty": 16,
+        "name": "Reengade Human",
+        "positionType": "Lineman",
+        "race": "Human",
+        "cost": 50000,
+        "movement": 6,
+        "strength": 3,
+        "agility": 3,
+        "passing": 4,
+        "armourValue": 9,
+        "skills": [
+          "Animosity (all)"
+        ],
+        "primarySkills": [
+          "Devious",
+          "Mutation"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 1,
+        "name": "Renegade Goblin",
+        "positionType": "Lineman",
+        "race": "Goblin",
+        "cost": 40000,
+        "movement": 6,
+        "strength": 2,
+        "agility": 3,
+        "passing": 4,
+        "armourValue": 8,
+        "skills": [
+          "Animosity (all)",
+          "Dodge",
+          "Right Stuff",
+          "Stunty"
+        ],
+        "primarySkills": [
+          "Devious",
+          "Mutation"
+        ],
+        "secondarySkills": [
+          "General",
+          "Passing"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 1,
+        "name": "Renegade Orc",
+        "positionType": "Lineman",
+        "race": "Orc",
+        "cost": 50000,
+        "movement": 5,
+        "strength": 3,
+        "agility": 3,
+        "passing": 4,
+        "armourValue": 10,
+        "skills": [
+          "Animosity (all)"
+        ],
+        "primarySkills": [
+          "Devious",
+          "Mutation"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 1,
+        "name": "Renegade Skaven",
+        "positionType": "Lineman",
+        "race": "Skaven",
+        "cost": 50000,
+        "movement": 7,
+        "strength": 3,
+        "agility": 3,
+        "passing": 4,
+        "armourValue": 8,
+        "skills": [
+          "Animosity (all)"
+        ],
+        "primarySkills": [
+          "Devious",
+          "Mutation"
+        ],
+        "secondarySkills": [
+          "Agility"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 1,
+        "name": "Renegade Dark Elf",
+        "positionType": "Lineman",
+        "race": "Dark Elf",
+        "cost": 65000,
+        "movement": 6,
+        "strength": 3,
+        "agility": 2,
+        "passing": 3,
+        "armourValue": 9,
+        "skills": [
+          "Animosity (all)"
+        ],
+        "primarySkills": [
+          "Devious",
+          "Mutation"
+        ],
+        "secondarySkills": [
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 1,
+        "name": "Renegade Human Thrower",
+        "positionType": "Thrower",
+        "race": "Human Thrower",
+        "cost": 75000,
+        "movement": 6,
+        "strength": 3,
+        "agility": 3,
+        "passing": 3,
+        "armourValue": 9,
+        "skills": [
+          "Animosity (all)",
+          "Pass",
+          "Sure Hands"
+        ],
+        "primarySkills": [
+          "Devious",
+          "Mutation"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 1,
+        "name": "Troll",
+        "positionType": "Big Guy",
+        "race": "Troll",
+        "cost": 115000,
+        "movement": 4,
+        "strength": 5,
+        "agility": 5,
+        "passing": 5,
+        "armourValue": 10,
+        "skills": [
+          "Loner (4+)",
+          "Always Hungry",
+          "Mighty Blow",
+          "Throw Team-mate",
+          "Projectile Vomit",
+          "Really Stupid"
+        ],
+        "primarySkills": [
+          "Strength"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "General",
+          "Mutation"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 1,
+        "name": "Ogre",
+        "positionType": "Big Guy",
+        "race": "Ogre",
+        "cost": 140000,
+        "movement": 5,
+        "strength": 5,
+        "agility": 4,
+        "passing": 5,
+        "armourValue": 10,
+        "skills": [
+          "Loner (4+)",
+          "Bone Head",
+          "Thick Skull",
+          "Throw Team-mate"
+        ],
+        "primarySkills": [
+          "Strength"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "General",
+          "Mutation"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 1,
+        "name": "Minotaur",
+        "positionType": "Big Guy",
+        "race": "Minotaur",
+        "cost": 150000,
+        "movement": 5,
+        "strength": 5,
+        "agility": 4,
+        "passing": 6,
+        "armourValue": 9,
+        "skills": [
+          "Loner (4+)",
+          "Frenzy",
+          "Mighty Blow",
+          "Throw Team-mate",
+          "Unchannelled Fury"
+        ],
+        "primarySkills": [
+          "Strength"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "General",
+          "Mutation"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 1,
+        "name": "Rat Ogre",
+        "positionType": "Big Guy",
+        "race": "Skaven",
+        "cost": 150000,
+        "movement": 6,
+        "strength": 5,
+        "agility": 4,
+        "passing": 6,
+        "armourValue": 9,
+        "skills": [
+          "Loner (4+)",
+          "Animal Savagery",
+          "Mighty Blow",
+          "Prehensile Tail"
+        ],
+        "primarySkills": [
+          "Strength"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "General",
+          "Mutation"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 0,
+        "name": "1",
+        "positionType": "",
+        "race": "Chaos Renegade",
+        "cost": 0,
+        "movement": 0,
+        "strength": 0,
+        "agility": 0,
+        "passing": 0,
+        "armourValue": 0,
+        "skills": [],
+        "primarySkills": [],
+        "secondarySkills": []
+      }
+    ]
+  },
+  "Dark Elf": {
+    "name": "Dark Elf",
+    "leagues": [
+      "Even Kingdoms League"
+    ],
+    "specialRules": [],
+    "minRerolls": 0,
+    "maxRerolls": 8,
+    "rerollCost": 50000,
+    "apothecary": true,
+    "positions": [
+      {
+        "minQty": 0,
+        "maxQty": 16,
+        "name": "Dark Elf Lineman",
+        "positionType": "Lineman",
+        "race": "Elf",
+        "cost": 65000,
+        "movement": 6,
+        "strength": 3,
+        "agility": 2,
+        "passing": 3,
+        "armourValue": 9,
+        "skills": [],
+        "primarySkills": [
+          "Agility",
+          "General"
+        ],
+        "secondarySkills": [
+          "Strength",
+          "Devious"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Dark Elf Runner",
+        "positionType": "Runner",
+        "race": "Elf",
+        "cost": 80000,
+        "movement": 7,
+        "strength": 3,
+        "agility": 2,
+        "passing": 3,
+        "armourValue": 8,
+        "skills": [
+          "Dump-off",
+          "Punt"
+        ],
+        "primarySkills": [
+          "Agility",
+          "General"
+        ],
+        "secondarySkills": [
+          "Strength",
+          "Devious"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Dark Elf Assassin",
+        "positionType": "Special",
+        "race": "Elf",
+        "cost": 90000,
+        "movement": 7,
+        "strength": 3,
+        "agility": 2,
+        "passing": 4,
+        "armourValue": 8,
+        "skills": [
+          "Hit and Run",
+          "Shadowing",
+          "Stab"
+        ],
+        "primarySkills": [
+          "Agility",
+          "Devious"
+        ],
+        "secondarySkills": [
+          "Strength",
+          "General"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Dark Elf Blitzer",
+        "positionType": "Blitzer",
+        "race": "Elf",
+        "cost": 105000,
+        "movement": 7,
+        "strength": 3,
+        "agility": 2,
+        "passing": 3,
+        "armourValue": 9,
+        "skills": [
+          "Block"
+        ],
+        "primarySkills": [
+          "Agility",
+          "General"
+        ],
+        "secondarySkills": [
+          "Strength",
+          "Devious",
+          "Passing"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Witch Elf",
+        "positionType": "Special",
+        "race": "Elf",
+        "cost": 110000,
+        "movement": 7,
+        "strength": 3,
+        "agility": 2,
+        "passing": 4,
+        "armourValue": 8,
+        "skills": [
+          "Dodge",
+          "Frenzy",
+          "Jump Up"
+        ],
+        "primarySkills": [
+          "Agility",
+          "General"
+        ],
+        "secondarySkills": [
+          "Strength",
+          "Devious"
+        ]
+      }
+    ]
+  },
+  "Dwarf": {
+    "name": "Dwarf",
+    "leagues": [
+      "Worlds Edge Superleague",
+      "Brawlin' Brutes"
+    ],
+    "specialRules": [
+      "Bribery & Corruption"
+    ],
+    "minRerolls": 0,
+    "maxRerolls": 8,
+    "rerollCost": 60000,
+    "apothecary": true,
+    "positions": [
+      {
+        "minQty": 0,
+        "maxQty": 16,
+        "name": "Dwarf Lineman",
+        "positionType": "Lineman",
+        "race": "Dwarf",
+        "cost": 70000,
+        "movement": 4,
+        "strength": 3,
+        "agility": 4,
+        "passing": 5,
+        "armourValue": 10,
+        "skills": [
+          "Thick Skull",
+          "Block",
+          "Defensive"
+        ],
+        "primarySkills": [
+          "General",
+          "Devious"
+        ],
+        "secondarySkills": [
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Dwarf Runner",
+        "positionType": "Runner",
+        "race": "Dwarf",
+        "cost": 80000,
+        "movement": 6,
+        "strength": 3,
+        "agility": 3,
+        "passing": 4,
+        "armourValue": 9,
+        "skills": [
+          "Thick Skull",
+          "Sprint",
+          "Sure Hands"
+        ],
+        "primarySkills": [
+          "General",
+          "Passign"
+        ],
+        "secondarySkills": [
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Dwarf Blitzer",
+        "positionType": "Blitzer",
+        "race": "Dwarf",
+        "cost": 100000,
+        "movement": 5,
+        "strength": 3,
+        "agility": 4,
+        "passing": 4,
+        "armourValue": 10,
+        "skills": [
+          "Thick Skull",
+          "Block",
+          "Diving Tackle",
+          "Tackle"
+        ],
+        "primarySkills": [
+          "General",
+          "Strength"
+        ],
+        "secondarySkills": [
+          "Passing"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Troll Slayer",
+        "positionType": "Special",
+        "race": "Dwarf",
+        "cost": 95000,
+        "movement": 5,
+        "strength": 3,
+        "agility": 4,
+        "passing": 5,
+        "armourValue": 9,
+        "skills": [
+          "Thick Skull",
+          "Block",
+          "Dauntless",
+          "Franzy",
+          "Hatred (Troll)"
+        ],
+        "primarySkills": [
+          "General",
+          "Strength"
+        ],
+        "secondarySkills": [
+          "Devious"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 1,
+        "name": "Deathroller",
+        "positionType": "Big Guy",
+        "race": "Dwarf",
+        "cost": 17000,
+        "movement": 5,
+        "strength": 7,
+        "agility": 5,
+        "passing": 0,
+        "armourValue": 11,
+        "skills": [
+          "Break Tackle",
+          "Dirty Player",
+          "Juggernaut",
+          "Loner (4+)",
+          "Mighty Blow",
+          "No Ball"
+        ],
+        "primarySkills": [
+          "Devious",
+          "Strength"
+        ],
+        "secondarySkills": [
+          "General"
+        ]
+      }
+    ]
+  },
+  "Elven Union": {
+    "name": "Elven Union",
+    "leagues": [
+      "Elven Kingdoms League"
+    ],
+    "specialRules": [],
+    "minRerolls": 0,
+    "maxRerolls": 8,
+    "rerollCost": 50000,
+    "apothecary": true,
+    "positions": [
+      {
+        "minQty": 0,
+        "maxQty": 16,
+        "name": "Elf Lineman",
+        "positionType": "Lineman",
+        "race": "Elf",
+        "cost": 65000,
+        "movement": 6,
+        "strength": 3,
+        "agility": 2,
+        "passing": 3,
+        "armourValue": 8,
+        "skills": [
+          "Fumblerooski",
+          "Agility",
+          "General"
+        ],
+        "primarySkills": [
+          "Agility",
+          "General"
+        ],
+        "secondarySkills": [
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Elf Thrower",
+        "positionType": "Thrower",
+        "race": "Elf",
+        "cost": 75000,
+        "movement": 6,
+        "strength": 3,
+        "agility": 2,
+        "passing": 2,
+        "armourValue": 8,
+        "skills": [
+          "Hail Mary Pass",
+          "Pass",
+          "Agility",
+          "General",
+          "Passing"
+        ],
+        "primarySkills": [
+          "Agility",
+          "General"
+        ],
+        "secondarySkills": [
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Elf Catcher",
+        "positionType": "Catcher",
+        "race": "Elf",
+        "cost": 100000,
+        "movement": 8,
+        "strength": 3,
+        "agility": 2,
+        "passing": 4,
+        "armourValue": 8,
+        "skills": [
+          "Catch",
+          "Diving Catch",
+          "Neves of Steel",
+          "Agility",
+          "General"
+        ],
+        "primarySkills": [
+          "Agility",
+          "General"
+        ],
+        "secondarySkills": [
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Elf Blitzer",
+        "positionType": "Blitzer",
+        "race": "Elf",
+        "cost": 115000,
+        "movement": 7,
+        "strength": 3,
+        "agility": 2,
+        "passing": 3,
+        "armourValue": 9,
+        "skills": [
+          "Block",
+          "Sidestep",
+          "Agility",
+          "General"
+        ],
+        "primarySkills": [
+          "Agility",
+          "General"
+        ],
+        "secondarySkills": [
+          "Strength",
+          "Passing"
+        ]
+      }
+    ]
+  },
+  "Gnome": {
+    "name": "Gnome",
+    "leagues": [
+      "Halfling Thimble Cup",
+      "Woodland League"
+    ],
+    "specialRules": [],
+    "minRerolls": 0,
+    "maxRerolls": 8,
+    "rerollCost": 50000,
+    "apothecary": true,
+    "positions": [
+      {
+        "minQty": 0,
+        "maxQty": 16,
+        "name": "Gnome Lineman",
+        "positionType": "Lineman",
+        "race": "Gnome",
+        "cost": 40000,
+        "movement": 5,
+        "strength": 2,
+        "agility": 3,
+        "passing": 4,
+        "armourValue": 7,
+        "skills": [
+          "Stunty",
+          "Jump Up",
+          "Wrestle",
+          "Right Stuff"
+        ],
+        "primarySkills": [
+          "Agility"
+        ],
+        "secondarySkills": [
+          "Devious",
+          "General",
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Woodland Fox",
+        "positionType": "Runner",
+        "race": "Animal",
+        "cost": 50000,
+        "movement": 7,
+        "strength": 2,
+        "agility": 2,
+        "passing": 0,
+        "armourValue": 6,
+        "skills": [
+          "Stunty",
+          "Dodge",
+          "Sidestep",
+          "My Ball"
+        ],
+        "primarySkills": [],
+        "secondarySkills": [
+          "Agility"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Gnome Illusionist",
+        "positionType": "Special",
+        "race": "Gnome",
+        "cost": 50000,
+        "movement": 5,
+        "strength": 2,
+        "agility": 3,
+        "passing": 3,
+        "armourValue": 7,
+        "skills": [
+          "Stunty",
+          "Jump Up",
+          "Wrestle",
+          "Trickster"
+        ],
+        "primarySkills": [
+          "Agility",
+          "Passing"
+        ],
+        "secondarySkills": [
+          "Devious",
+          "General"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Gnome Beastmaster",
+        "positionType": "Blocker",
+        "race": "Gnome",
+        "cost": 55000,
+        "movement": 5,
+        "strength": 2,
+        "agility": 3,
+        "passing": 4,
+        "armourValue": 8,
+        "skills": [
+          "Stunty",
+          "Jump Up",
+          "Wrestle",
+          "Guard"
+        ],
+        "primarySkills": [
+          "Agility"
+        ],
+        "secondarySkills": [
+          "Devious",
+          "General",
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Altern Forest Treeman",
+        "positionType": "Big Guy",
+        "race": "Treeman",
+        "cost": 12000,
+        "movement": 2,
+        "strength": 6,
+        "agility": 5,
+        "passing": 5,
+        "armourValue": 11,
+        "skills": [
+          "Mighty Blow",
+          "Stand Firm",
+          "Strong Arm",
+          "Take Root",
+          "Thick Skull",
+          "Throw Team-mate"
+        ],
+        "primarySkills": [
+          "Strength"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "General",
+          "Passing"
+        ]
+      }
+    ]
+  },
+  "Goblin": {
+    "name": "Goblin",
+    "leagues": [
+      "Badlands Brawl",
+      "Underworld Challenge"
+    ],
+    "specialRules": [
+      "Bribery and Corruption"
+    ],
+    "minRerolls": 0,
+    "maxRerolls": 8,
+    "rerollCost": 60000,
+    "apothecary": true,
+    "positions": [
+      {
+        "minQty": 0,
+        "maxQty": 16,
+        "name": "Gobling Lineman",
+        "positionType": "Lineman",
+        "race": "Goblin",
+        "cost": 40000,
+        "movement": 6,
+        "strength": 2,
+        "agility": 3,
+        "passing": 4,
+        "armourValue": 8,
+        "skills": [
+          "Stunty",
+          "Dodge",
+          "Right Stuff"
+        ],
+        "primarySkills": [
+          "Devious",
+          "Agility"
+        ],
+        "secondarySkills": [
+          "General",
+          "Passing",
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 1,
+        "name": "Loony",
+        "positionType": "Special",
+        "race": "Goblin",
+        "cost": 40000,
+        "movement": 6,
+        "strength": 2,
+        "agility": 3,
+        "passing": 0,
+        "armourValue": 8,
+        "skills": [
+          "Stunty",
+          "Chainsaw",
+          "No Ball",
+          "Secret Weapon"
+        ],
+        "primarySkills": [
+          "Devious"
+        ],
+        "secondarySkills": [
+          "General",
+          "Agility",
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 1,
+        "name": "Bomma",
+        "positionType": "Special",
+        "race": "Goblin",
+        "cost": 45000,
+        "movement": 6,
+        "strength": 2,
+        "agility": 3,
+        "passing": 4,
+        "armourValue": 8,
+        "skills": [
+          "Stunty",
+          "Bombadier",
+          "Dodge",
+          "Secret Weapon"
+        ],
+        "primarySkills": [
+          "Devious",
+          "Passing"
+        ],
+        "secondarySkills": [
+          "General",
+          "Agility",
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 1,
+        "name": "Ooligan",
+        "positionType": "Special",
+        "race": "Goblin",
+        "cost": 60000,
+        "movement": 6,
+        "strength": 2,
+        "agility": 3,
+        "passing": 5,
+        "armourValue": 8,
+        "skills": [
+          "Stunty",
+          "Dirty Player",
+          "Distrubing Presence",
+          "Dodge",
+          "Right Stuff"
+        ],
+        "primarySkills": [
+          "Devious",
+          "Agility"
+        ],
+        "secondarySkills": [
+          "General",
+          "Strength",
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 1,
+        "name": "Doom Driver",
+        "positionType": "Special",
+        "race": "Goblin",
+        "cost": 65000,
+        "movement": 6,
+        "strength": 2,
+        "agility": 3,
+        "passing": 6,
+        "armourValue": 8,
+        "skills": [
+          "Stunty",
+          "Dodge",
+          "Right Stuff",
+          "Swoop"
+        ],
+        "primarySkills": [
+          "Agility"
+        ],
+        "secondarySkills": [
+          "General",
+          "Strength",
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 1,
+        "name": "Fanatic",
+        "positionType": "Special",
+        "race": "Goblin",
+        "cost": 70000,
+        "movement": 3,
+        "strength": 7,
+        "agility": 3,
+        "passing": 0,
+        "armourValue": 8,
+        "skills": [
+          "Stunty",
+          "Ball & Chain",
+          "No Ball",
+          "Secret Weapon"
+        ],
+        "primarySkills": [
+          "Devious",
+          "Strength"
+        ],
+        "secondarySkills": [
+          "General",
+          "Agility"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 1,
+        "name": "Pogoer",
+        "positionType": "Special",
+        "race": "Goblin",
+        "cost": 75000,
+        "movement": 7,
+        "strength": 2,
+        "agility": 3,
+        "passing": 4,
+        "armourValue": 8,
+        "skills": [
+          "Stunty",
+          "Dodge",
+          "Pogo"
+        ],
+        "primarySkills": [
+          "Agility"
+        ],
+        "secondarySkills": [
+          "General",
+          "Devious",
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Trained Troll",
+        "positionType": "Big Guy",
+        "race": "Trol",
+        "cost": 115000,
+        "movement": 4,
+        "strength": 5,
+        "agility": 5,
+        "passing": 5,
+        "armourValue": 10,
+        "skills": [
+          "Always Hungry",
+          "Mighty Blow",
+          "Projectile Vomit",
+          "Really Stupid",
+          "Regenetration",
+          "Throw Team-mate"
+        ],
+        "primarySkills": [
+          "Strength"
+        ],
+        "secondarySkills": [
+          "General",
+          "Agility",
+          "Passing"
+        ]
+      }
+    ]
+  },
+  "Halfling": {
+    "name": "Halfling",
+    "leagues": [
+      "Halfling Thimble Cup",
+      "Woodland League"
+    ],
+    "specialRules": [],
+    "minRerolls": 0,
+    "maxRerolls": 8,
+    "rerollCost": 60000,
+    "apothecary": true,
+    "positions": [
+      {
+        "minQty": 0,
+        "maxQty": 16,
+        "name": "Halfling Hopeful",
+        "positionType": "Lineman",
+        "race": "Halfling",
+        "cost": 30000,
+        "movement": 5,
+        "strength": 2,
+        "agility": 3,
+        "passing": 4,
+        "armourValue": 7,
+        "skills": [
+          "Stunty",
+          "Dodge",
+          "Right Stuff"
+        ],
+        "primarySkills": [
+          "Agility"
+        ],
+        "secondarySkills": [
+          "Devious",
+          "General",
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Halfling Hefty",
+        "positionType": "Blocker",
+        "race": "Halfling",
+        "cost": 50000,
+        "movement": 5,
+        "strength": 2,
+        "agility": 3,
+        "passing": 3,
+        "armourValue": 8,
+        "skills": [
+          "Stunty",
+          "Dodge",
+          "Fend"
+        ],
+        "primarySkills": [
+          "Agility",
+          "Passing"
+        ],
+        "secondarySkills": [
+          "Devious",
+          "General",
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Halfling Catcher",
+        "positionType": "Catcher",
+        "race": "Halfling",
+        "cost": 55000,
+        "movement": 5,
+        "strength": 2,
+        "agility": 3,
+        "passing": 4,
+        "armourValue": 7,
+        "skills": [
+          "Stunty",
+          "Dodge",
+          "Right Stuff",
+          "Sprint"
+        ],
+        "primarySkills": [
+          "Agility"
+        ],
+        "secondarySkills": [
+          "Devious",
+          "General",
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Altern Forest Treeman",
+        "positionType": "Big Guy",
+        "race": "Treeman",
+        "cost": 120000,
+        "movement": 2,
+        "strength": 6,
+        "agility": 5,
+        "passing": 5,
+        "armourValue": 11,
+        "skills": [
+          "Mighty Blow",
+          "Stand Firm",
+          "Strong Arm",
+          "Take Root",
+          "Thick Skull",
+          "Throw Team-mate"
+        ],
+        "primarySkills": [
+          "Strength"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "General",
+          "Passing"
+        ]
+      }
+    ]
+  },
+  "High Elf (Roster of Legend)": {
+    "name": "High Elf (Roster of Legend)",
+    "leagues": [
+      "Elven Kingdom Leagues"
+    ],
+    "specialRules": [],
+    "minRerolls": 0,
+    "maxRerolls": 8,
+    "rerollCost": 50000,
+    "apothecary": true,
+    "positions": [
+      {
+        "minQty": 0,
+        "maxQty": 16,
+        "name": "High Elf Lineman",
+        "positionType": "Lineman",
+        "race": "Elf",
+        "cost": 65000,
+        "movement": 6,
+        "strength": 3,
+        "agility": 2,
+        "passing": 3,
+        "armourValue": 9,
+        "skills": [
+          "Agility",
+          "General"
+        ],
+        "primarySkills": [
+          "Agility",
+          "General"
+        ],
+        "secondarySkills": [
+          "Strength",
+          "Passing"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "High Elf Thrower",
+        "positionType": "Thrower",
+        "race": "Elf",
+        "cost": 100000,
+        "movement": 6,
+        "strength": 3,
+        "agility": 2,
+        "passing": 2,
+        "armourValue": 9,
+        "skills": [
+          "Cloud Burster",
+          "Pass",
+          "Safe Pass",
+          "Agility",
+          "General",
+          "Passing"
+        ],
+        "primarySkills": [
+          "Agility",
+          "General"
+        ],
+        "secondarySkills": [
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 4,
+        "name": "High Elf Catcher",
+        "positionType": "Catcher",
+        "race": "Elf",
+        "cost": 90000,
+        "movement": 8,
+        "strength": 3,
+        "agility": 2,
+        "passing": 3,
+        "armourValue": 8,
+        "skills": [
+          "Catch",
+          "Agility",
+          "General"
+        ],
+        "primarySkills": [
+          "Agility",
+          "General"
+        ],
+        "secondarySkills": [
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "High Elf Blitzer",
+        "positionType": "Blitzer",
+        "race": "Elf",
+        "cost": 100000,
+        "movement": 7,
+        "strength": 3,
+        "agility": 2,
+        "passing": 4,
+        "armourValue": 9,
+        "skills": [
+          "Block",
+          "Agility",
+          "General"
+        ],
+        "primarySkills": [
+          "Agility",
+          "General"
+        ],
+        "secondarySkills": [
+          "Strength",
+          "Passing"
+        ]
+      }
+    ]
+  },
+  "High Elf": {
+    "name": "High Elf",
+    "leagues": [
+      "Elven Kingdom Leagues"
+    ],
+    "specialRules": [
+      "Spectacle of the Flame Eternal"
+    ],
+    "minRerolls": 0,
+    "maxRerolls": 8,
+    "rerollCost": 50000,
+    "apothecary": true,
+    "positions": [
+      {
+        "minQty": 0,
+        "maxQty": 16,
+        "name": "High Elf Lineman",
+        "positionType": "Lineman",
+        "race": "Elf",
+        "cost": 70000,
+        "movement": 6,
+        "strength": 3,
+        "agility": 2,
+        "passing": 3,
+        "armourValue": 9,
+        "skills": [],
+        "primarySkills": [
+          "Agility",
+          "General"
+        ],
+        "secondarySkills": [
+          "Strength",
+          "Passing"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Phoenix Warrior",
+        "positionType": "Thrower",
+        "race": "Elf",
+        "cost": 110000,
+        "movement": 6,
+        "strength": 3,
+        "agility": 2,
+        "passing": 2,
+        "armourValue": 9,
+        "skills": [
+          "Cloud Burster",
+          "Pass",
+          "Secure Pass"
+        ],
+        "primarySkills": [
+          "Agility",
+          "General",
+          "Passing"
+        ],
+        "secondarySkills": [
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "White Lion",
+        "positionType": "Blitzer",
+        "race": "Elf",
+        "cost": 120000,
+        "movement": 7,
+        "strength": 3,
+        "agility": 2,
+        "passing": null,
+        "armourValue": 9,
+        "skills": [
+          "Claws"
+        ],
+        "primarySkills": [
+          "Agility",
+          "General",
+          "Strength"
+        ],
+        "secondarySkills": [
+          "Passing"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Dragon Prince",
+        "positionType": "Blitzer",
+        "race": "Elf",
+        "cost": 115000,
+        "movement": 7,
+        "strength": 3,
+        "agility": 2,
+        "passing": 3,
+        "armourValue": 9,
+        "skills": [
+          "Block",
+          "Steady Footing"
+        ],
+        "primarySkills": [
+          "Agility",
+          "General"
+        ],
+        "secondarySkills": [
+          "Strength",
+          "Passing"
+        ]
+      }
+    ]
+  },
+  "Human": {
+    "name": "Human",
+    "leagues": [
+      "Old World Classic"
+    ],
+    "specialRules": [
+      "Team Captain"
+    ],
+    "minRerolls": 0,
+    "maxRerolls": 8,
+    "rerollCost": 50000,
+    "apothecary": true,
+    "positions": [
+      {
+        "minQty": 0,
+        "maxQty": 16,
+        "name": "Human Lineman",
+        "positionType": "Lineman",
+        "race": "Human",
+        "cost": 50000,
+        "movement": 6,
+        "strength": 3,
+        "agility": 3,
+        "passing": 4,
+        "armourValue": 9,
+        "skills": [],
+        "primarySkills": [
+          "General"
+        ],
+        "secondarySkills": [
+          "Agiligty",
+          "Devious",
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 3,
+        "name": "Halfling Hopeful",
+        "positionType": "Lineman",
+        "race": "Halfling",
+        "cost": 30000,
+        "movement": 5,
+        "strength": 2,
+        "agility": 3,
+        "passing": 4,
+        "armourValue": 7,
+        "skills": [
+          "Dodge",
+          "Right Stuff",
+          "Stunty"
+        ],
+        "primarySkills": [
+          "Agility"
+        ],
+        "secondarySkills": [
+          "Devious",
+          "General",
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Human Catcher",
+        "positionType": "Catcher",
+        "race": "Human",
+        "cost": 75000,
+        "movement": 8,
+        "strength": 3,
+        "agility": 3,
+        "passing": 4,
+        "armourValue": 8,
+        "skills": [
+          "Catch",
+          "Dodge"
+        ],
+        "primarySkills": [
+          "General",
+          "Agility"
+        ],
+        "secondarySkills": [
+          "Devious",
+          "Passing",
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Human Thrower",
+        "positionType": "Thrower",
+        "race": "Human",
+        "cost": 75000,
+        "movement": 6,
+        "strength": 3,
+        "agility": 3,
+        "passing": 3,
+        "armourValue": 9,
+        "skills": [
+          "Pass",
+          "Sure Hands"
+        ],
+        "primarySkills": [
+          "General",
+          "Passing"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "Devious",
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Human Blitzer",
+        "positionType": "Blitzer",
+        "race": "Human",
+        "cost": 85000,
+        "movement": 7,
+        "strength": 3,
+        "agility": 3,
+        "passing": 4,
+        "armourValue": 9,
+        "skills": [
+          "Black",
+          "Tackle"
+        ],
+        "primarySkills": [
+          "General",
+          "Strength"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "Devious"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 1,
+        "name": "Ogre",
+        "positionType": "Big Guy",
+        "race": "Ogre",
+        "cost": 140000,
+        "movement": 5,
+        "strength": 5,
+        "agility": 4,
+        "passing": 5,
+        "armourValue": 10,
+        "skills": [
+          "Bone Head",
+          "Loner (3+)",
+          "Might Blow",
+          "Thick Skull",
+          "Throw Team-mate"
+        ],
+        "primarySkills": [
+          "Strength"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "General"
+        ]
+      }
+    ]
+  },
+  "Imperial Nobility": {
+    "name": "Imperial Nobility",
+    "leagues": [
+      "Old World Classic"
+    ],
+    "specialRules": [],
+    "minRerolls": 0,
+    "maxRerolls": 8,
+    "rerollCost": 60000,
+    "apothecary": true,
+    "positions": [
+      {
+        "minQty": 0,
+        "maxQty": 16,
+        "name": "Imperial Retainer",
+        "positionType": "Lineman",
+        "race": "Human",
+        "cost": 45000,
+        "movement": 6,
+        "strength": 3,
+        "agility": 3,
+        "passing": 4,
+        "armourValue": 8,
+        "skills": [
+          "Fend",
+          "General"
+        ],
+        "primarySkills": [
+          "General"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Imperial Thrower",
+        "positionType": "Thrower",
+        "race": "Human",
+        "cost": 75000,
+        "movement": 6,
+        "strength": 3,
+        "agility": 3,
+        "passing": 2,
+        "armourValue": 9,
+        "skills": [
+          "Giver and Go",
+          "Pass",
+          "Pro",
+          "General"
+        ],
+        "primarySkills": [
+          "General",
+          "Passing"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 4,
+        "name": "Bodyguard",
+        "positionType": "Blocker",
+        "race": "Human",
+        "cost": 85000,
+        "movement": 5,
+        "strength": 3,
+        "agility": 3,
+        "passing": 4,
+        "armourValue": 9,
+        "skills": [
+          "Stand Firm",
+          "Wrestly",
+          "General"
+        ],
+        "primarySkills": [
+          "General",
+          "Strength"
+        ],
+        "secondarySkills": [
+          "Agility"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Noble Blitzer",
+        "positionType": "Blitzer",
+        "race": "Human",
+        "cost": 90000,
+        "movement": 7,
+        "strength": 3,
+        "agility": 3,
+        "passing": 4,
+        "armourValue": 9,
+        "skills": [
+          "Block",
+          "Catch",
+          "Pro",
+          "General"
+        ],
+        "primarySkills": [
+          "General",
+          "Agility"
+        ],
+        "secondarySkills": [
+          "Passign",
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 1,
+        "name": "Ogre",
+        "positionType": "Big Guy",
+        "race": "Ogre",
+        "cost": 140000,
+        "movement": 5,
+        "strength": 5,
+        "agility": 4,
+        "passing": 5,
+        "armourValue": 10,
+        "skills": [
+          "Bone Head",
+          "Loner (3+)",
+          "Might Blow",
+          "Thick Skull",
+          "Throw Team-mate",
+          "Strength"
+        ],
+        "primarySkills": [
+          "Strength"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "General"
+        ]
+      }
+    ]
+  },
+  "Khorne": {
+    "name": "Khorne",
+    "leagues": [
+      "Chaos Clash"
+    ],
+    "specialRules": [
+      "Brawlin' Brutes",
+      "Favoured of Khorne"
+    ],
+    "minRerolls": 0,
+    "maxRerolls": 8,
+    "rerollCost": 60000,
+    "apothecary": true,
+    "positions": [
+      {
+        "minQty": 0,
+        "maxQty": 16,
+        "name": "Bloodborn Marauder",
+        "positionType": "Lineman",
+        "race": "Human",
+        "cost": 50000,
+        "movement": 6,
+        "strength": 3,
+        "agility": 3,
+        "passing": 4,
+        "armourValue": 8,
+        "skills": [
+          "Frenzy"
+        ],
+        "primarySkills": [
+          "Mutation",
+          "General"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "Devious",
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Khorngor",
+        "positionType": "Runner",
+        "race": "Beastman",
+        "cost": 70000,
+        "movement": 6,
+        "strength": 3,
+        "agility": 3,
+        "passing": 4,
+        "armourValue": 9,
+        "skills": [
+          "Horns",
+          "Juggernaut",
+          "Jump Up",
+          "Thick Skull"
+        ],
+        "primarySkills": [
+          "Mutation",
+          "General"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "Devious",
+          "Passing"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 4,
+        "name": "Bloodseeker",
+        "positionType": "Blocker",
+        "race": "Human",
+        "cost": 105000,
+        "movement": 5,
+        "strength": 4,
+        "agility": 4,
+        "passing": 6,
+        "armourValue": 10,
+        "skills": [
+          "Frenzy"
+        ],
+        "primarySkills": [
+          "Mutation",
+          "General"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "Devious"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 1,
+        "name": "Bloodspawn",
+        "positionType": "Big Guy",
+        "race": "Spawn",
+        "cost": 160000,
+        "movement": 5,
+        "strength": 5,
+        "agility": 4,
+        "passing": 6,
+        "armourValue": 9,
+        "skills": [
+          "Frenzy",
+          "Claws",
+          "Loner (4+)",
+          "Mighty Blow",
+          "Unchannelled Fury"
+        ],
+        "primarySkills": [
+          "Mutation",
+          "Strength"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "General"
+        ]
+      }
+    ]
+  },
+  "Lizardmen": {
+    "name": "Lizardmen",
+    "leagues": [
+      "Lustrian Superleague"
+    ],
+    "specialRules": [],
+    "minRerolls": 0,
+    "maxRerolls": 8,
+    "rerollCost": 70000,
+    "apothecary": true,
+    "positions": [
+      {
+        "minQty": 0,
+        "maxQty": 16,
+        "name": "Skink Lineman",
+        "positionType": "Lineman",
+        "race": "Lizardman",
+        "cost": 60000,
+        "movement": 8,
+        "strength": 2,
+        "agility": 3,
+        "passing": 4,
+        "armourValue": 8,
+        "skills": [
+          "Stunty",
+          "Dodge"
+        ],
+        "primarySkills": [
+          "Agility"
+        ],
+        "secondarySkills": [
+          "General",
+          "Devious",
+          "Passing"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Chameleon Skink",
+        "positionType": "Thrower",
+        "race": "Lizardman",
+        "cost": 70000,
+        "movement": 7,
+        "strength": 2,
+        "agility": 3,
+        "passing": 3,
+        "armourValue": 8,
+        "skills": [
+          "Stunty",
+          "Dodge",
+          "On the Ball",
+          "Shadowing"
+        ],
+        "primarySkills": [
+          "Agility",
+          "Passing"
+        ],
+        "secondarySkills": [
+          "General",
+          "Devious",
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 6,
+        "name": "Saurus Blocker",
+        "positionType": "Blocker",
+        "race": "Lizardman",
+        "cost": 90000,
+        "movement": 6,
+        "strength": 4,
+        "agility": 5,
+        "passing": 6,
+        "armourValue": 10,
+        "skills": [
+          "Juggernauth",
+          "Unsteady"
+        ],
+        "primarySkills": [
+          "General",
+          "Strength"
+        ],
+        "secondarySkills": [
+          "Agility"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 1,
+        "name": "Krozigor",
+        "positionType": "Big Buy",
+        "race": "Lizardman",
+        "cost": 140000,
+        "movement": 6,
+        "strength": 5,
+        "agility": 5,
+        "passing": 6,
+        "armourValue": 10,
+        "skills": [
+          "Bone Head",
+          "Loner (4+)",
+          "Mighty Blow",
+          "Prehensile Tail",
+          "Thick Skull"
+        ],
+        "primarySkills": [
+          "Strength"
+        ],
+        "secondarySkills": [
+          "General",
+          "Agility"
+        ]
+      }
+    ]
+  },
+  "Necromantic Horror": {
+    "name": "Necromantic Horror",
+    "leagues": [
+      "Sylvanian Spotlight"
+    ],
+    "specialRules": [
+      "Masters of Undeath"
+    ],
+    "minRerolls": 0,
+    "maxRerolls": 8,
+    "rerollCost": 70000,
+    "apothecary": false,
+    "positions": [
+      {
+        "minQty": 0,
+        "maxQty": 16,
+        "name": "Zombie Lineman",
+        "positionType": "Lineman",
+        "race": "Undead",
+        "cost": 40000,
+        "movement": 4,
+        "strength": 3,
+        "agility": 4,
+        "passing": 6,
+        "armourValue": 9,
+        "skills": [
+          "Regenration",
+          "Eye Gouge",
+          "Unsteady"
+        ],
+        "primarySkills": [
+          "General",
+          "Devious"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Ghoul Runner",
+        "positionType": "Runner",
+        "race": "Undead",
+        "cost": 75000,
+        "movement": 7,
+        "strength": 3,
+        "agility": 3,
+        "passing": 3,
+        "armourValue": 8,
+        "skills": [
+          "Regenration",
+          "Dodge"
+        ],
+        "primarySkills": [
+          "General",
+          "Agility"
+        ],
+        "secondarySkills": [
+          "Devious",
+          "Passing",
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Wraith",
+        "positionType": "Blocker",
+        "race": "Undead",
+        "cost": 85000,
+        "movement": 6,
+        "strength": 3,
+        "agility": 3,
+        "passing": 0,
+        "armourValue": 9,
+        "skills": [
+          "Regenration",
+          "Block",
+          "Foul Appearance",
+          "No Ball",
+          "Sidestep"
+        ],
+        "primarySkills": [
+          "General",
+          "Strength"
+        ],
+        "secondarySkills": [
+          "Devious",
+          "Agility"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Flesh Golem",
+        "positionType": "Blocker",
+        "race": "Undead",
+        "cost": 110000,
+        "movement": 4,
+        "strength": 4,
+        "agility": 4,
+        "passing": 6,
+        "armourValue": 10,
+        "skills": [
+          "Regenration",
+          "Stand Firm",
+          "Thick Skull",
+          "Unsteady"
+        ],
+        "primarySkills": [
+          "General",
+          "Strength"
+        ],
+        "secondarySkills": [
+          "Devious",
+          "Agility"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Werewolf",
+        "positionType": "Blitzer",
+        "race": "Undead",
+        "cost": 120000,
+        "movement": 8,
+        "strength": 3,
+        "agility": 3,
+        "passing": 3,
+        "armourValue": 9,
+        "skills": [
+          "Regenration",
+          "Claws",
+          "Frenzy"
+        ],
+        "primarySkills": [
+          "General",
+          "Agility"
+        ],
+        "secondarySkills": [
+          "Devious",
+          "Passing",
+          "Strength"
+        ]
+      }
+    ]
+  },
+  "Norse": {
+    "name": "Norse",
+    "leagues": [
+      "Chaos Clash",
+      "Old World Classic"
+    ],
+    "specialRules": [
+      "Favoured of Khorne"
+    ],
+    "minRerolls": 0,
+    "maxRerolls": 8,
+    "rerollCost": 60000,
+    "apothecary": true,
+    "positions": [
+      {
+        "minQty": 0,
+        "maxQty": 16,
+        "name": "Norse Raider",
+        "positionType": "Lineman",
+        "race": "Human",
+        "cost": 50000,
+        "movement": 6,
+        "strength": 3,
+        "agility": 3,
+        "passing": 4,
+        "armourValue": 8,
+        "skills": [
+          "Block",
+          "Drunkard",
+          "Thick Skull",
+          "Unsteady"
+        ],
+        "primarySkills": [
+          "General"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "Passing",
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Beer Boar",
+        "positionType": "Special",
+        "race": "Animal",
+        "cost": 20000,
+        "movement": 5,
+        "strength": 1,
+        "agility": 3,
+        "passing": 0,
+        "armourValue": 6,
+        "skills": [
+          "Dodge",
+          "No Ball",
+          "Pick-me-up",
+          "Stunty",
+          "Titchy"
+        ],
+        "primarySkills": [
+          "-"
+        ],
+        "secondarySkills": [
+          "Agility"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Berserker",
+        "positionType": "Blitzer",
+        "race": "Human",
+        "cost": 90000,
+        "movement": 6,
+        "strength": 3,
+        "agility": 3,
+        "passing": 5,
+        "armourValue": 8,
+        "skills": [
+          "Block",
+          "Frenzy",
+          "Jump Up"
+        ],
+        "primarySkills": [
+          "General",
+          "Strength"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "Passing"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Valkyrie",
+        "positionType": "Catcher",
+        "race": "Human",
+        "cost": 95000,
+        "movement": 7,
+        "strength": 3,
+        "agility": 3,
+        "passing": 3,
+        "armourValue": 8,
+        "skills": [
+          "Catch",
+          "Dauntless",
+          "Pass",
+          "Strip Ball"
+        ],
+        "primarySkills": [
+          "General",
+          "Agility"
+        ],
+        "secondarySkills": [
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Ulfwerener",
+        "positionType": "Blocker",
+        "race": "Human",
+        "cost": 105000,
+        "movement": 6,
+        "strength": 4,
+        "agility": 4,
+        "passing": 6,
+        "armourValue": 9,
+        "skills": [
+          "Frenzy",
+          "Unsteady"
+        ],
+        "primarySkills": [
+          "General",
+          "Stength"
+        ],
+        "secondarySkills": [
+          "Agility"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 1,
+        "name": "Yhetee",
+        "positionType": "Big Guy",
+        "race": "Yhetee",
+        "cost": 140000,
+        "movement": 5,
+        "strength": 5,
+        "agility": 4,
+        "passing": 6,
+        "armourValue": 9,
+        "skills": [
+          "Claws",
+          "Distrubing Presence",
+          "Frenzy",
+          "Loner (4+)",
+          "Unchannelled Fury"
+        ],
+        "primarySkills": [
+          "Strength"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "General"
+        ]
+      }
+    ]
+  },
+  "Nurgle": {
+    "name": "Nurgle",
+    "leagues": [
+      "Chaos Clash"
+    ],
+    "specialRules": [
+      "Brawlin' Brutes",
+      "Favoured of Nurgle"
+    ],
+    "minRerolls": 0,
+    "maxRerolls": 8,
+    "rerollCost": 60000,
+    "apothecary": false,
+    "positions": [
+      {
+        "minQty": 0,
+        "maxQty": 16,
+        "name": "Rotter Lineman",
+        "positionType": "Lineman",
+        "race": "Human",
+        "cost": 40000,
+        "movement": 5,
+        "strength": 3,
+        "agility": 4,
+        "passing": 6,
+        "armourValue": 9,
+        "skills": [
+          "Plague Ridden",
+          "Decay"
+        ],
+        "primarySkills": [
+          "General",
+          "Mutation"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Pestigor",
+        "positionType": "Runner",
+        "race": "Beastman",
+        "cost": 70000,
+        "movement": 6,
+        "strength": 3,
+        "agility": 3,
+        "passing": 4,
+        "armourValue": 9,
+        "skills": [
+          "Plague Ridden",
+          "Regenration",
+          "Horns",
+          "Steady Footing",
+          "Thick Skull"
+        ],
+        "primarySkills": [
+          "General",
+          "Mutation"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "Devious",
+          "Passing"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 4,
+        "name": "Bloater",
+        "positionType": "Blocker",
+        "race": "Human",
+        "cost": 110000,
+        "movement": 4,
+        "strength": 4,
+        "agility": 4,
+        "passing": 6,
+        "armourValue": 10,
+        "skills": [
+          "Plague Ridden",
+          "Regenration",
+          "Disturbing Presence",
+          "Foul Appearance",
+          "Stand Firm",
+          "Unsteady"
+        ],
+        "primarySkills": [
+          "General",
+          "Mutation"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "Devious"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 1,
+        "name": "Rotspawn",
+        "positionType": "Big Guy",
+        "race": "Spawn",
+        "cost": 140000,
+        "movement": 4,
+        "strength": 5,
+        "agility": 5,
+        "passing": 6,
+        "armourValue": 10,
+        "skills": [
+          "Plague Ridden",
+          "Regenration",
+          "Disturbing Presence",
+          "Foul Appearance",
+          "Loner (4+)",
+          "Mighty Blow"
+        ],
+        "primarySkills": [
+          "Strength"
+        ],
+        "secondarySkills": [
+          "Mutation",
+          "Devious",
+          "General"
+        ]
+      }
+    ]
+  },
+  "Ogre": {
+    "name": "Ogre",
+    "leagues": [
+      "Badlands Brawl",
+      "Worlds Edge Superleague"
+    ],
+    "specialRules": [
+      "Brawlin' Brutes",
+      "Low Cost Linemen"
+    ],
+    "minRerolls": 0,
+    "maxRerolls": 8,
+    "rerollCost": 70000,
+    "apothecary": true,
+    "positions": [
+      {
+        "minQty": 0,
+        "maxQty": 16,
+        "name": "Gnoblar Lineman",
+        "positionType": "Lineman",
+        "race": "Gnoblar",
+        "cost": 15000,
+        "movement": 5,
+        "strength": 1,
+        "agility": 3,
+        "passing": 4,
+        "armourValue": 6,
+        "skills": [
+          "Dodge",
+          "Right Stuff",
+          "Sidestep",
+          "Stunty",
+          "Titchy"
+        ],
+        "primarySkills": [
+          "Agility",
+          "Devious"
+        ],
+        "secondarySkills": [
+          "General"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 5,
+        "name": "Ogre Blocker",
+        "positionType": "Big Guy",
+        "race": "Ogre",
+        "cost": 140000,
+        "movement": 5,
+        "strength": 5,
+        "agility": 4,
+        "passing": 5,
+        "armourValue": 10,
+        "skills": [
+          "Bone Head",
+          "Mighty Blow",
+          "Thick Skull",
+          "Throw Team-mate"
+        ],
+        "primarySkills": [
+          "Strength"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "Devious",
+          "General"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 1,
+        "name": "Ogre Runt Punter",
+        "positionType": "Big Guy",
+        "race": "Ogre",
+        "cost": 145000,
+        "movement": 5,
+        "strength": 5,
+        "agility": 4,
+        "passing": 4,
+        "armourValue": 10,
+        "skills": [
+          "Bone HEad",
+          "Kick Team-mate",
+          "Mighty Blow",
+          "Thick Skull"
+        ],
+        "primarySkills": [
+          "Strength",
+          "Passing"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "Devious",
+          "General"
+        ]
+      }
+    ]
+  },
+  "Old World Alliance": {
+    "name": "Old World Alliance",
+    "leagues": [
+      "Old World Classic"
+    ],
+    "specialRules": [],
+    "minRerolls": 0,
+    "maxRerolls": 8,
+    "rerollCost": 70000,
+    "apothecary": true,
+    "positions": [
+      {
+        "minQty": 0,
+        "maxQty": 16,
+        "name": "Human Lineman",
+        "positionType": "Lineman",
+        "race": "Human",
+        "cost": 50000,
+        "movement": 6,
+        "strength": 3,
+        "agility": 3,
+        "passing": 4,
+        "armourValue": 8,
+        "skills": [],
+        "primarySkills": [
+          "General"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 5,
+        "name": "Halfling Hopeful",
+        "positionType": "Lineman",
+        "race": "Halfling",
+        "cost": 30000,
+        "movement": 5,
+        "strength": 2,
+        "agility": 3,
+        "passing": 4,
+        "armourValue": 7,
+        "skills": [
+          "Dodge",
+          "Right Stuff",
+          "Stunty"
+        ],
+        "primarySkills": [
+          "Agility"
+        ],
+        "secondarySkills": [
+          "General",
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 1,
+        "name": "Human catcher",
+        "positionType": "Catcher",
+        "race": "Human",
+        "cost": 750000,
+        "movement": 8,
+        "strength": 3,
+        "agility": 3,
+        "passing": 4,
+        "armourValue": 8,
+        "skills": [
+          "Catch",
+          "Dodge"
+        ],
+        "primarySkills": [
+          "General",
+          "Agility"
+        ],
+        "secondarySkills": [
+          "Passing",
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 3,
+        "name": "Dwarf Lineman",
+        "positionType": "Lineman",
+        "race": "Dwarf",
+        "cost": 70000,
+        "movement": 4,
+        "strength": 3,
+        "agility": 4,
+        "passing": 5,
+        "armourValue": 10,
+        "skills": [
+          "Block",
+          "Defensive",
+          "Thick Skull"
+        ],
+        "primarySkills": [
+          "General",
+          "Devious"
+        ],
+        "secondarySkills": [
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 1,
+        "name": "Human Thrower",
+        "positionType": "Thrower",
+        "race": "Human",
+        "cost": 75000,
+        "movement": 6,
+        "strength": 3,
+        "agility": 3,
+        "passing": 3,
+        "armourValue": 9,
+        "skills": [
+          "Pass",
+          "Sure Pands"
+        ],
+        "primarySkills": [
+          "General",
+          "Passing"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 1,
+        "name": "Dwarf Runner",
+        "positionType": "Runner",
+        "race": "Dwarf",
+        "cost": 80000,
+        "movement": 6,
+        "strength": 3,
+        "agility": 3,
+        "passing": 4,
+        "armourValue": 9,
+        "skills": [
+          "Sprint",
+          "Sure Hands",
+          "Thick Skull"
+        ],
+        "primarySkills": [
+          "General",
+          "Passing"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 1,
+        "name": "Human Blitzer",
+        "positionType": "Blitzer",
+        "race": "Human",
+        "cost": 85000,
+        "movement": 7,
+        "strength": 3,
+        "agility": 3,
+        "passing": 4,
+        "armourValue": 9,
+        "skills": [
+          "Block",
+          "Tackle"
+        ],
+        "primarySkills": [
+          "General",
+          "Strength"
+        ],
+        "secondarySkills": [
+          "Agility"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 1,
+        "name": "Dwarf Blitzer",
+        "positionType": "Blitzer",
+        "race": "Dwarf",
+        "cost": 100000,
+        "movement": 5,
+        "strength": 3,
+        "agility": 4,
+        "passing": 4,
+        "armourValue": 10,
+        "skills": [
+          "Block",
+          "Diving Tackle",
+          "Tackle",
+          "Thick Skull"
+        ],
+        "primarySkills": [
+          "General",
+          "Strength"
+        ],
+        "secondarySkills": [
+          "Passing"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 1,
+        "name": "Troll Slayer",
+        "positionType": "Special",
+        "race": "Dwarf",
+        "cost": 95000,
+        "movement": 5,
+        "strength": 3,
+        "agility": 4,
+        "passing": 5,
+        "armourValue": 9,
+        "skills": [
+          "Block",
+          "Dauntless",
+          "Frenzy",
+          "Hatred (Troll)",
+          "Thick Skull"
+        ],
+        "primarySkills": [
+          "General",
+          "Strength"
+        ],
+        "secondarySkills": [
+          "Agility"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 1,
+        "name": "Ogre",
+        "positionType": "Big Guy",
+        "race": "Ogre",
+        "cost": 140000,
+        "movement": 5,
+        "strength": 4,
+        "agility": 4,
+        "passing": 5,
+        "armourValue": 10,
+        "skills": [
+          "Bone Head",
+          "Loner (3+)",
+          "Mighty Blow",
+          "Thick Skull",
+          "Throw Team-mate"
+        ],
+        "primarySkills": [
+          "Strength"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "General"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 1,
+        "name": "Altern Forest Treeman",
+        "positionType": "Big Guy",
+        "race": "Treeman",
+        "cost": 120000,
+        "movement": 2,
+        "strength": 6,
+        "agility": 5,
+        "passing": 5,
+        "armourValue": 11,
+        "skills": [
+          "Mighty Blow",
+          "Stand Firm",
+          "Strong Arm",
+          "Take Root",
+          "Thick Skull",
+          "Throw Team-Mate"
+        ],
+        "primarySkills": [
+          "Strength"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "General",
+          "Passing"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 0,
+        "name": "1",
+        "positionType": "",
+        "race": "Old World Alliance",
+        "cost": 0,
+        "movement": 0,
+        "strength": 0,
+        "agility": 0,
+        "passing": 0,
+        "armourValue": 0,
+        "skills": [],
+        "primarySkills": [],
+        "secondarySkills": []
+      }
+    ]
+  },
+  "Orc": {
+    "name": "Orc",
+    "leagues": [
+      "Badlands Brawl"
+    ],
+    "specialRules": [
+      "Brawlin' Brutes",
+      "Team Captain"
+    ],
+    "minRerolls": 0,
+    "maxRerolls": 8,
+    "rerollCost": 60000,
+    "apothecary": true,
+    "positions": [
+      {
+        "minQty": 0,
+        "maxQty": 16,
+        "name": "Orc Lineman",
+        "positionType": "Lineman",
+        "race": "Orc",
+        "cost": 50000,
+        "movement": 5,
+        "strength": 3,
+        "agility": 3,
+        "passing": 4,
+        "armourValue": 10,
+        "skills": [],
+        "primarySkills": [
+          "General",
+          "Strength"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "Devious"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 4,
+        "name": "Goblin Lineman",
+        "positionType": "Lineman",
+        "race": "Goblin",
+        "cost": 40000,
+        "movement": 6,
+        "strength": 2,
+        "agility": 3,
+        "passing": 3,
+        "armourValue": 8,
+        "skills": [
+          "Dodge",
+          "Right Stuff",
+          "Stunty"
+        ],
+        "primarySkills": [
+          "Agility",
+          "Devious"
+        ],
+        "secondarySkills": [
+          "General",
+          "Passing",
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Orc Thrower",
+        "positionType": "Thrower",
+        "race": "Orc",
+        "cost": 75000,
+        "movement": 6,
+        "strength": 3,
+        "agility": 3,
+        "passing": 3,
+        "armourValue": 9,
+        "skills": [
+          "Pass",
+          "Sure Hands"
+        ],
+        "primarySkills": [
+          "General",
+          "Passing"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "Devious"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Orc Blitzer",
+        "positionType": "Blitzer",
+        "race": "Orc",
+        "cost": 85000,
+        "movement": 6,
+        "strength": 3,
+        "agility": 3,
+        "passing": 4,
+        "armourValue": 10,
+        "skills": [
+          "Block",
+          "Break Tackle"
+        ],
+        "primarySkills": [
+          "General",
+          "Strength"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "Devious"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Big Un Blocker",
+        "positionType": "Blocker",
+        "race": "Orc",
+        "cost": 95000,
+        "movement": 5,
+        "strength": 4,
+        "agility": 4,
+        "passing": 6,
+        "armourValue": 10,
+        "skills": [
+          "Might Blow",
+          "Taunt",
+          "Thick Skull",
+          "Unsteady"
+        ],
+        "primarySkills": [
+          "General",
+          "Strength"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "Devious"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 1,
+        "name": "Troll",
+        "positionType": "Big Guy",
+        "race": "Troll",
+        "cost": 115000,
+        "movement": 4,
+        "strength": 5,
+        "agility": 5,
+        "passing": 5,
+        "armourValue": 10,
+        "skills": [
+          "Always Hungry",
+          "Loner (4+)",
+          "Mighty Blow",
+          "Projectile Vomit",
+          "Really Stupid",
+          "Regeneration"
+        ],
+        "primarySkills": [
+          "Strength"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "General",
+          "Passing"
+        ]
+      }
+    ]
+  },
+  "Shambling Undead": {
+    "name": "Shambling Undead",
+    "leagues": [
+      "Sylvanian Spotlight"
+    ],
+    "specialRules": [
+      "Masters of Undeath"
+    ],
+    "minRerolls": 0,
+    "maxRerolls": 8,
+    "rerollCost": 70000,
+    "apothecary": false,
+    "positions": [
+      {
+        "minQty": 0,
+        "maxQty": 16,
+        "name": "Skeleton Lineman",
+        "positionType": "Lineman",
+        "race": "Undead",
+        "cost": 40000,
+        "movement": 5,
+        "strength": 3,
+        "agility": 4,
+        "passing": 6,
+        "armourValue": 8,
+        "skills": [
+          "Regeneration",
+          "Thick Skull"
+        ],
+        "primarySkills": [
+          "General"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "Devious",
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 16,
+        "name": "Zombie Lineman",
+        "positionType": "Lineman",
+        "race": "Undead",
+        "cost": 40000,
+        "movement": 4,
+        "strength": 3,
+        "agility": 4,
+        "passing": 6,
+        "armourValue": 9,
+        "skills": [
+          "Regeneration",
+          "Eye Gouge",
+          "Unsteady"
+        ],
+        "primarySkills": [
+          "General",
+          "Devious"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "Stength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Goul Runner",
+        "positionType": "Runner",
+        "race": "Undead",
+        "cost": 75000,
+        "movement": 7,
+        "strength": 3,
+        "agility": 3,
+        "passing": 3,
+        "armourValue": 8,
+        "skills": [
+          "Regeneration",
+          "Dodge"
+        ],
+        "primarySkills": [
+          "General",
+          "Agility"
+        ],
+        "secondarySkills": [
+          "Devious",
+          "Passing",
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Wight Blitzer",
+        "positionType": "Blitzer",
+        "race": "Undead",
+        "cost": 95000,
+        "movement": 6,
+        "strength": 3,
+        "agility": 3,
+        "passing": 5,
+        "armourValue": 9,
+        "skills": [
+          "Regeneration",
+          "Block",
+          "Tackle",
+          "Thick Skull"
+        ],
+        "primarySkills": [
+          "General",
+          "Strength"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "Devious"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Mummy",
+        "positionType": "Big Guy",
+        "race": "Undead",
+        "cost": 125000,
+        "movement": 3,
+        "strength": 5,
+        "agility": 5,
+        "passing": 6,
+        "armourValue": 10,
+        "skills": [
+          "Regeneration",
+          "Mighty Blow"
+        ],
+        "primarySkills": [
+          "Strength"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "General"
+        ]
+      }
+    ]
+  },
+  "Skaven": {
+    "name": "Skaven",
+    "leagues": [
+      "Underworld Challenge"
+    ],
+    "specialRules": [],
+    "minRerolls": 0,
+    "maxRerolls": 8,
+    "rerollCost": 50000,
+    "apothecary": true,
+    "positions": [
+      {
+        "minQty": 0,
+        "maxQty": 16,
+        "name": "Skaven Clanrat",
+        "positionType": "Lineman",
+        "race": "Skaven",
+        "cost": 50000,
+        "movement": 7,
+        "strength": 3,
+        "agility": 3,
+        "passing": 4,
+        "armourValue": 8,
+        "skills": [],
+        "primarySkills": [
+          "General",
+          "Devious"
+        ],
+        "secondarySkills": [
+          "Mutation",
+          "Agility",
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Skaven Thrower",
+        "positionType": "Thrower",
+        "race": "Skaven",
+        "cost": 80000,
+        "movement": 7,
+        "strength": 3,
+        "agility": 3,
+        "passing": 2,
+        "armourValue": 8,
+        "skills": [
+          "Pass",
+          "Sure Hands"
+        ],
+        "primarySkills": [
+          "General",
+          "Passing"
+        ],
+        "secondarySkills": [
+          "Mutation",
+          "Agility",
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Gutter Runner",
+        "positionType": "Runner",
+        "race": "Skaven",
+        "cost": 85000,
+        "movement": 9,
+        "strength": 2,
+        "agility": 2,
+        "passing": 4,
+        "armourValue": 8,
+        "skills": [
+          "Dodge",
+          "Stab"
+        ],
+        "primarySkills": [
+          "General",
+          "Devious"
+        ],
+        "secondarySkills": [
+          "Mutation",
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Skaven Blitzer",
+        "positionType": "Blitzer",
+        "race": "Skaven",
+        "cost": 90000,
+        "movement": 8,
+        "strength": 3,
+        "agility": 3,
+        "passing": 4,
+        "armourValue": 9,
+        "skills": [
+          "Block",
+          "Strip Ball"
+        ],
+        "primarySkills": [
+          "General",
+          "Strength"
+        ],
+        "secondarySkills": [
+          "Mutation",
+          "Agility",
+          "Devious"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 1,
+        "name": "Rat Ogre",
+        "positionType": "Big Guy",
+        "race": "Skaven",
+        "cost": 150000,
+        "movement": 6,
+        "strength": 5,
+        "agility": 4,
+        "passing": 6,
+        "armourValue": 9,
+        "skills": [
+          "Anaimal Savagery",
+          "Frnzy",
+          "Loner (4+)",
+          "Mighty Blow",
+          "Prehensile Tail"
+        ],
+        "primarySkills": [
+          "Strength"
+        ],
+        "secondarySkills": [
+          "Mutation",
+          "Agility",
+          "General"
+        ]
+      }
+    ]
+  },
+  "Snotling": {
+    "name": "Snotling",
+    "leagues": [
+      "Underworld Challenge"
+    ],
+    "specialRules": [
+      "Bribery and Corruption",
+      "Low Cost Linemen",
+      "Swarming"
+    ],
+    "minRerolls": 0,
+    "maxRerolls": 8,
+    "rerollCost": 70000,
+    "apothecary": true,
+    "positions": [
+      {
+        "minQty": 0,
+        "maxQty": 16,
+        "name": "Snotling Lineman",
+        "positionType": "Lineman",
+        "race": "Snotling",
+        "cost": 15000,
+        "movement": 5,
+        "strength": 1,
+        "agility": 3,
+        "passing": 4,
+        "armourValue": 6,
+        "skills": [
+          "Dodge",
+          "Right Stuff",
+          "Stunty",
+          "Sidestep",
+          "Titchy"
+        ],
+        "primarySkills": [
+          "Agility",
+          "Devious"
+        ],
+        "secondarySkills": [
+          "General"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Fun-hoppa",
+        "positionType": "Special",
+        "race": "Snotling",
+        "cost": 20000,
+        "movement": 6,
+        "strength": 1,
+        "agility": 3,
+        "passing": 4,
+        "armourValue": 6,
+        "skills": [
+          "Dodge",
+          "Right Stuff",
+          "Stunty",
+          "Pogo",
+          "Sidestep"
+        ],
+        "primarySkills": [
+          "Agility",
+          "Devious"
+        ],
+        "secondarySkills": [
+          "General"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Stilty Runna",
+        "positionType": "Runner",
+        "race": "Snotling",
+        "cost": 20000,
+        "movement": 6,
+        "strength": 1,
+        "agility": 3,
+        "passing": 4,
+        "armourValue": 6,
+        "skills": [
+          "Dodge",
+          "Right Stuff",
+          "Stunty",
+          "Sprint"
+        ],
+        "primarySkills": [
+          "Agility",
+          "Devious"
+        ],
+        "secondarySkills": [
+          "General"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Fungus Flinga",
+        "positionType": "Special",
+        "race": "Snotling",
+        "cost": 30000,
+        "movement": 5,
+        "strength": 1,
+        "agility": 3,
+        "passing": 4,
+        "armourValue": 6,
+        "skills": [
+          "Dodge",
+          "Right Stuff",
+          "Stunty",
+          "Bombardier",
+          "Secret Weapon",
+          "Sidestep"
+        ],
+        "primarySkills": [
+          "Agility",
+          "Devious"
+        ],
+        "secondarySkills": [
+          "General"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Pump Wagon",
+        "positionType": "Big Guy",
+        "race": "Snotling",
+        "cost": 100000,
+        "movement": 5,
+        "strength": 5,
+        "agility": 5,
+        "passing": 6,
+        "armourValue": 9,
+        "skills": [
+          "Dirty Player",
+          "Juggernaut",
+          "Mighty Blow",
+          "Really Stupid",
+          "Stand Firm"
+        ],
+        "primarySkills": [
+          "Strength",
+          "Devious"
+        ],
+        "secondarySkills": [
+          "General",
+          "Agility"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Trained Troll",
+        "positionType": "Big Guy",
+        "race": "Troll",
+        "cost": 115000,
+        "movement": 4,
+        "strength": 5,
+        "agility": 5,
+        "passing": 5,
+        "armourValue": 10,
+        "skills": [
+          "Always Hungry",
+          "Mighty Blow",
+          "Projectile Vomit",
+          "Really Stupid",
+          "Regenration",
+          "Throw Team-mate"
+        ],
+        "primarySkills": [
+          "Strength"
+        ],
+        "secondarySkills": [
+          "General",
+          "Agility",
+          "Passing"
+        ]
+      }
+    ]
+  },
+  "Tomb Kings": {
+    "name": "Tomb Kings",
+    "leagues": [
+      "Sylvanian Spotlight"
+    ],
+    "specialRules": [
+      "Masters of Undeath"
+    ],
+    "minRerolls": 0,
+    "maxRerolls": 8,
+    "rerollCost": 60000,
+    "apothecary": false,
+    "positions": [
+      {
+        "minQty": 0,
+        "maxQty": 16,
+        "name": "Skeleton Lineman",
+        "positionType": "Lineman",
+        "race": "Undead",
+        "cost": 40000,
+        "movement": 5,
+        "strength": 3,
+        "agility": 4,
+        "passing": 6,
+        "armourValue": 8,
+        "skills": [
+          "Regeneration",
+          "Thick Skull"
+        ],
+        "primarySkills": [
+          "General"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "Devious",
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Tomb Kings Thrower",
+        "positionType": "Thrower",
+        "race": "Undead",
+        "cost": 65000,
+        "movement": 6,
+        "strength": 3,
+        "agility": 4,
+        "passing": 3,
+        "armourValue": 9,
+        "skills": [
+          "Regeneration",
+          "Thick Skull",
+          "Sure Hands",
+          "Pass"
+        ],
+        "primarySkills": [
+          "General",
+          "Passing"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "Devious",
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Tomb Kings Blitzer",
+        "positionType": "Blitzer",
+        "race": "Undead",
+        "cost": 85000,
+        "movement": 6,
+        "strength": 3,
+        "agility": 4,
+        "passing": 5,
+        "armourValue": 9,
+        "skills": [
+          "Regeneration",
+          "Thick Skull",
+          "Block"
+        ],
+        "primarySkills": [
+          "General",
+          "Strength"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "Devious"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 4,
+        "name": "Tomb Guardian",
+        "positionType": "Big Guy",
+        "race": "Undead",
+        "cost": 1150000,
+        "movement": 4,
+        "strength": 5,
+        "agility": 5,
+        "passing": 6,
+        "armourValue": 10,
+        "skills": [
+          "Regeneration",
+          "Decay",
+          "Brawler"
+        ],
+        "primarySkills": [
+          "Stength"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "General"
+        ]
+      }
+    ]
+  },
+  "Underworld Denizens": {
+    "name": "Underworld Denizens",
+    "leagues": [
+      "Underworld Challenge"
+    ],
+    "specialRules": [
+      "Bribery and Corruption"
+    ],
+    "minRerolls": 0,
+    "maxRerolls": 8,
+    "rerollCost": 70000,
+    "apothecary": true,
+    "positions": [
+      {
+        "minQty": 0,
+        "maxQty": 16,
+        "name": "Goblin Lineman",
+        "positionType": "Lineman",
+        "race": "Goblin",
+        "cost": 40000,
+        "movement": 6,
+        "strength": 2,
+        "agility": 3,
+        "passing": 4,
+        "armourValue": 8,
+        "skills": [
+          "Dodge",
+          "Right Stuff",
+          "Stunty"
+        ],
+        "primarySkills": [
+          "Mutation",
+          "Agility"
+        ],
+        "secondarySkills": [
+          "General",
+          "Strength",
+          "Passing"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 6,
+        "name": "Snotling Lineman",
+        "positionType": "Lineman",
+        "race": "Snotling",
+        "cost": 15000,
+        "movement": 5,
+        "strength": 1,
+        "agility": 3,
+        "passing": 4,
+        "armourValue": 6,
+        "skills": [
+          "Dodge",
+          "Insignificant",
+          "Right Stuff",
+          "Sidestep",
+          "Stunty",
+          "Titchy"
+        ],
+        "primarySkills": [
+          "Mutation",
+          "Agility"
+        ],
+        "secondarySkills": [
+          "General"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 3,
+        "name": "Skaven Clanrat",
+        "positionType": "Lineman",
+        "race": "Skaven",
+        "cost": 50000,
+        "movement": 7,
+        "strength": 3,
+        "agility": 3,
+        "passing": 4,
+        "armourValue": 8,
+        "skills": [
+          "Animosity (Gobling)"
+        ],
+        "primarySkills": [
+          "Mutation",
+          "Devious"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 1,
+        "name": "Skaven Thrower",
+        "positionType": "Thrower",
+        "race": "Skaven",
+        "cost": 80000,
+        "movement": 7,
+        "strength": 3,
+        "agility": 3,
+        "passing": 2,
+        "armourValue": 8,
+        "skills": [
+          "Animosity (Gobling)",
+          "Pass",
+          "Sure Hands"
+        ],
+        "primarySkills": [
+          "Mutation",
+          "General"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 1,
+        "name": "Gutter Runner",
+        "positionType": "Runner",
+        "race": "Skaven",
+        "cost": 85000,
+        "movement": 9,
+        "strength": 2,
+        "agility": 2,
+        "passing": 4,
+        "armourValue": 8,
+        "skills": [
+          "Animosity (Gobling)",
+          "Dodge",
+          "Stab"
+        ],
+        "primarySkills": [
+          "Mutation",
+          "Agility"
+        ],
+        "secondarySkills": [
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 1,
+        "name": "Skaven Blitzer",
+        "positionType": "Blitzer",
+        "race": "Skaven",
+        "cost": 90000,
+        "movement": 8,
+        "strength": 3,
+        "agility": 3,
+        "passing": 4,
+        "armourValue": 9,
+        "skills": [
+          "Animosity (Gobling)",
+          "Block",
+          "Strip Ball"
+        ],
+        "primarySkills": [
+          "Mutation",
+          "General"
+        ],
+        "secondarySkills": [
+          "Agility"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 1,
+        "name": "Troll",
+        "positionType": "Big Guy",
+        "race": "Troll",
+        "cost": 115000,
+        "movement": 4,
+        "strength": 5,
+        "agility": 5,
+        "passing": 5,
+        "armourValue": 10,
+        "skills": [
+          "Always Hungry",
+          "Loner (4+)",
+          "Mighty Blow",
+          "Projectile Vomit",
+          "Really Stupid",
+          "Regeneration"
+        ],
+        "primarySkills": [
+          "Mutation",
+          "Strength"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "General",
+          "Passing"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 1,
+        "name": "Rat Ogre",
+        "positionType": "Big Guy",
+        "race": "Skaven",
+        "cost": 150000,
+        "movement": 6,
+        "strength": 5,
+        "agility": 4,
+        "passing": 6,
+        "armourValue": 9,
+        "skills": [
+          "Animal Savager",
+          "Loner (4+)",
+          "Frenzy",
+          "Mighty Blow",
+          "RPrehensile Tail"
+        ],
+        "primarySkills": [
+          "Mutation",
+          "Strength"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "General"
+        ]
+      }
+    ]
+  },
+  "Vampire": {
+    "name": "Vampire",
+    "leagues": [
+      "Sylvanian Spotlight"
+    ],
+    "specialRules": [
+      "Masters of Undeath"
+    ],
+    "minRerolls": 0,
+    "maxRerolls": 8,
+    "rerollCost": 60000,
+    "apothecary": true,
+    "positions": [
+      {
+        "minQty": 0,
+        "maxQty": 16,
+        "name": "Thrall Lineman",
+        "positionType": "Lineman",
+        "race": "Undead",
+        "cost": 40000,
+        "movement": 6,
+        "strength": 3,
+        "agility": 3,
+        "passing": 4,
+        "armourValue": 8,
+        "skills": [],
+        "primarySkills": [
+          "General"
+        ],
+        "secondarySkills": [
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Vampire Runner",
+        "positionType": "Runner",
+        "race": "Undead",
+        "cost": 100000,
+        "movement": 8,
+        "strength": 3,
+        "agility": 2,
+        "passing": 3,
+        "armourValue": 8,
+        "skills": [
+          "Bloodlust (2+)",
+          "Regeneration",
+          "Hypnotic Gaze"
+        ],
+        "primarySkills": [
+          "General",
+          "Agility"
+        ],
+        "secondarySkills": [
+          "Strength",
+          "Passing"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Vampire Thrower",
+        "positionType": "Thrower",
+        "race": "Undead",
+        "cost": 110000,
+        "movement": 6,
+        "strength": 4,
+        "agility": 2,
+        "passing": 2,
+        "armourValue": 9,
+        "skills": [
+          "Bloodlust (2+)",
+          "Regeneration",
+          "Hypnotic Gaze",
+          "Pass"
+        ],
+        "primarySkills": [
+          "General",
+          "Agility"
+        ],
+        "secondarySkills": [
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Vampire Blitzer",
+        "positionType": "Blitzer",
+        "race": "Undead",
+        "cost": 110000,
+        "movement": 6,
+        "strength": 4,
+        "agility": 2,
+        "passing": 4,
+        "armourValue": 9,
+        "skills": [
+          "Bloodlust (3+)",
+          "Regeneration",
+          "Hypnotic Gaze",
+          "Juggernaut"
+        ],
+        "primarySkills": [
+          "General",
+          "Agility"
+        ],
+        "secondarySkills": []
+      },
+      {
+        "minQty": 0,
+        "maxQty": 1,
+        "name": "Vargheist",
+        "positionType": "Big Guy",
+        "race": "Undead",
+        "cost": 150000,
+        "movement": 5,
+        "strength": 5,
+        "agility": 4,
+        "passing": 6,
+        "armourValue": 10,
+        "skills": [
+          "Bloodlust (3+)",
+          "Regeneration",
+          "Claws",
+          "Franzy",
+          "Loner (4+)"
+        ],
+        "primarySkills": [
+          "Strength"
+        ],
+        "secondarySkills": [
+          "Agiltiy",
+          "General"
+        ]
+      }
+    ]
+  },
+  "Wood Elf": {
+    "name": "Wood Elf",
+    "leagues": [
+      "Elven Kingdoms League",
+      "Woodland League"
+    ],
+    "specialRules": [],
+    "minRerolls": 0,
+    "maxRerolls": 8,
+    "rerollCost": 50000,
+    "apothecary": true,
+    "positions": [
+      {
+        "minQty": 0,
+        "maxQty": 16,
+        "name": "Wood Elf Lineman",
+        "positionType": "Lineman",
+        "race": "Elf",
+        "cost": 65000,
+        "movement": 7,
+        "strength": 3,
+        "agility": 2,
+        "passing": 3,
+        "armourValue": 8,
+        "skills": [],
+        "primarySkills": [
+          "Agility",
+          "General"
+        ],
+        "secondarySkills": [
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Wood Elf Thrower",
+        "positionType": "Thrower",
+        "race": "Elf",
+        "cost": 85000,
+        "movement": 7,
+        "strength": 3,
+        "agility": 2,
+        "passing": 2,
+        "armourValue": 8,
+        "skills": [
+          "Pass",
+          "Safe Pair of Hands"
+        ],
+        "primarySkills": [
+          "Agility",
+          "General"
+        ],
+        "secondarySkills": [
+          "Strength"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Wood Elf Catcher",
+        "positionType": "Catcher",
+        "race": "Elf",
+        "cost": 90000,
+        "movement": 8,
+        "strength": 2,
+        "agility": 2,
+        "passing": 3,
+        "armourValue": 8,
+        "skills": [
+          "Catch",
+          "Dodge",
+          "Sprint"
+        ],
+        "primarySkills": [
+          "Agility",
+          "General"
+        ],
+        "secondarySkills": [
+          "Strength",
+          "Passing"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 2,
+        "name": "Wardancer",
+        "positionType": "Blitzer",
+        "race": "Elf",
+        "cost": 130000,
+        "movement": 8,
+        "strength": 3,
+        "agility": 2,
+        "passing": 3,
+        "armourValue": 8,
+        "skills": [
+          "Block",
+          "Dodge",
+          "Leap"
+        ],
+        "primarySkills": [
+          "Agility",
+          "General"
+        ],
+        "secondarySkills": [
+          "Strength",
+          "Passing"
+        ]
+      },
+      {
+        "minQty": 0,
+        "maxQty": 1,
+        "name": "Loren Forest Treeman",
+        "positionType": "Big Guy",
+        "race": "Treeman",
+        "cost": 120000,
+        "movement": 2,
+        "strength": 6,
+        "agility": 5,
+        "passing": 5,
+        "armourValue": 11,
+        "skills": [
+          "Loner (4+)",
+          "Mighty Blow",
+          "Stand Firm",
+          "Strong Arm",
+          "Take Root",
+          "Thick Skull"
+        ],
+        "primarySkills": [
+          "Strength"
+        ],
+        "secondarySkills": [
+          "Agility",
+          "Passing",
+          "General"
+        ]
+      }
+    ]
+  }
+}
