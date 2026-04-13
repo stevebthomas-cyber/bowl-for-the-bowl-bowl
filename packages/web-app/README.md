@@ -41,7 +41,7 @@ Edit `/packages/web-app/.env` and add your Discord credentials:
 ```bash
 # Supabase Configuration (Local)
 VITE_SUPABASE_URL=http://127.0.0.1:54321
-VITE_SUPABASE_ANON_KEY=sb_publishable_ACJWlzQHlZjBrEguHvfOxg_3BJgxAaH
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key_here
 
 # Discord OAuth
 VITE_DISCORD_CLIENT_ID=your_actual_discord_client_id

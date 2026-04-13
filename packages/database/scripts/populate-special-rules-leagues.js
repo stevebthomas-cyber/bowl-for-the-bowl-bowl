@@ -1,7 +1,11 @@
 const { createClient } = require('@supabase/supabase-js');
 
-const supabaseUrl = 'https://osdnloxaoleylsitqgta.supabase.co';
-const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9zZG5sb3hhb2xleWxzaXRxZ3RhIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2NDQ0NjY1NywiZXhwIjoyMDgwMDIyNjU3fQ.3W5ta9lignQqjt6BxbcXhbZ04kSh1UqZnL8Pc2YiWUc';
+const supabaseUrl = process.env.SUPABASE_URL || 'https://osdnloxaoleylsitqgta.supabase.co';
+const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
+if (!supabaseKey) {
+  console.error('Error: SUPABASE_SERVICE_ROLE_KEY environment variable is required');
+  process.exit(1);
+}
 
 const supabase = createClient(supabaseUrl, supabaseKey);
 
