@@ -11,6 +11,7 @@ import {
   addHatredTrait,
   getPlayerAdvancementInfo
 } from '../../lib/game-workflows';
+import { getMatchPlayers } from '../../lib/game-queries';
 import LoadingSpinner from '../common/LoadingSpinner';
 import ErrorMessage from '../common/ErrorMessage';
 
@@ -55,8 +56,18 @@ export default function PostGameWizard({
   }>>([]);
   const [currentCasualtyIndex, setCurrentCasualtyIndex] = useState(0);
 
+  // Players for casualty selection
+  const [allPlayers, setAllPlayers] = useState<any[]>([]);
+  const [showCasualtyPicker, setShowCasualtyPicker] = useState(false);
+
   // Post-game summary
   const [summary, setSummary] = useState<any>(null);
+
+  useEffect(() => {
+    getMatchPlayers(homeTeamId, awayTeamId)
+      .then(setAllPlayers)
+      .catch(console.error);
+  }, [homeTeamId, awayTeamId]);
 
   const handleRecordResults = () => {
     if (casualties.length > 0) {
@@ -255,18 +266,65 @@ export default function PostGameWizard({
           <div className="border rounded-lg p-4 mt-4">
             <h4 className="font-bold text-lg mb-3">Casualties</h4>
             <p className="text-sm text-gray-600 mb-2">
-              Add players who suffered casualties during the game:
+              Select players who suffered a casualty result during the game:
             </p>
-            <button
-              onClick={() => {/* TODO: Add player selector modal */}}
-              className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
-            >
-              + Add Casualty
-            </button>
+
+            {/* Casualty list */}
             {casualties.length > 0 && (
-              <div className="mt-3">
-                <p className="text-sm text-gray-700">{casualties.length} casualties recorded</p>
+              <div className="mb-3 space-y-1">
+                {casualties.map((c, idx) => (
+                  <div key={idx} className="flex items-center justify-between bg-red-50 border border-red-200 rounded px-3 py-1 text-sm">
+                    <span className="font-semibold text-red-800">{c.playerName}</span>
+                    <button
+                      onClick={() => setCasualties(casualties.filter((_, i) => i !== idx))}
+                      className="text-red-400 hover:text-red-600 ml-2"
+                    >
+                      ✕
+                    </button>
+                  </div>
+                ))}
               </div>
+            )}
+
+            {/* Player picker */}
+            {showCasualtyPicker ? (
+              <div className="border rounded p-3 bg-gray-50">
+                <p className="text-xs text-gray-500 mb-2">Click a player to add as casualty:</p>
+                <div className="grid grid-cols-2 gap-1 max-h-48 overflow-y-auto">
+                  {allPlayers
+                    .filter(p => !casualties.find(c => c.playerId === p.id))
+                    .map(player => (
+                      <button
+                        key={player.id}
+                        onClick={() => {
+                          setCasualties([...casualties, {
+                            playerId: player.id,
+                            playerName: player.name,
+                            teamId: player.team_id,
+                          }]);
+                          setShowCasualtyPicker(false);
+                        }}
+                        className="text-left px-2 py-1 text-sm rounded hover:bg-blue-100 border border-gray-200 bg-white"
+                      >
+                        <span className="font-medium">{player.name}</span>
+                        <span className="text-xs text-gray-400 ml-1">({player.position})</span>
+                      </button>
+                    ))}
+                </div>
+                <button
+                  onClick={() => setShowCasualtyPicker(false)}
+                  className="mt-2 text-sm text-gray-500 hover:text-gray-700"
+                >
+                  Cancel
+                </button>
+              </div>
+            ) : (
+              <button
+                onClick={() => setShowCasualtyPicker(true)}
+                className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 text-sm"
+              >
+                + Add Casualty
+              </button>
             )}
           </div>
 

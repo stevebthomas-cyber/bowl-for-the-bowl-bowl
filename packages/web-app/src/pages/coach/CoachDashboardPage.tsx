@@ -1,9 +1,11 @@
 import { useState, useEffect } from 'react';
 import { useTeams } from '../../hooks/useTeam';
-import { getNextGame, getUpcomingGames, getTeamStreak, setTeamReady, lockTeamRoster, getGameTeamInfo } from '../../lib/game-queries';
+import { getNextGame, getUpcomingGames, getTeamStreak, setTeamReady, lockTeamRoster, getGameTeamInfo, updateMatchStatus } from '../../lib/game-queries';
 import { calculateCurrentTeamValue } from '../../lib/team-calculations';
 import CoachLayout from '../../components/layouts/CoachLayout';
 import LoadingSpinner from '../../components/common/LoadingSpinner';
+import PreGameWizard from '../../components/game/PreGameWizard';
+import PostGameWizard from '../../components/game/PostGameWizard';
 
 export default function CoachDashboardPage() {
   const { teams, isLoading: teamsLoading } = useTeams();
@@ -17,6 +19,8 @@ export default function CoachDashboardPage() {
   const [myStreak, setMyStreak] = useState<any>(null);
   const [opponentStreak, setOpponentStreak] = useState<any>(null);
   const [loading, setLoading] = useState(true);
+  const [showPreGame, setShowPreGame] = useState(false);
+  const [showPostGame, setShowPostGame] = useState(false);
 
   const currentTeam = teams[selectedTeamIndex];
 
@@ -113,6 +117,11 @@ export default function CoachDashboardPage() {
     // Check bounty status
     if (nextGame.bounty_status === 'active' || nextGame.bounty_status === 'claimed') {
       return { text: 'Game in Bounty', disabled: true, bounty: true };
+    }
+
+    // Match in progress - ready to record post-game
+    if (nextGame.status === 'in_progress') {
+      return { text: 'Record Post-Game Results', disabled: false, action: 'post-game' };
     }
 
     // Both locked - ready to initiate pre-game
@@ -336,10 +345,8 @@ export default function CoachDashboardPage() {
               onClick={() => {
                 if (buttonState.action === 'mark-ready') handleToggleReady();
                 else if (buttonState.action === 'lock-roster') handleLockRoster();
-                else if (buttonState.action === 'pre-game') {
-                  // TODO: Navigate to pre-game flow
-                  alert('Pre-game flow not yet implemented');
-                }
+                else if (buttonState.action === 'pre-game') setShowPreGame(true);
+                else if (buttonState.action === 'post-game') setShowPostGame(true);
               }}
               disabled={buttonState.disabled}
               className={`w-full py-3 px-4 rounded-lg font-bold text-white text-lg transition-colors ${
@@ -411,6 +418,43 @@ export default function CoachDashboardPage() {
           </div>
         )}
       </div>
+
+      {/* Pre-Game Wizard Overlay */}
+      {showPreGame && nextGame && (
+        <div className="fixed inset-0 bg-black bg-opacity-60 z-50 flex items-start justify-center overflow-y-auto py-8">
+          <PreGameWizard
+            gameId={nextGame.id}
+            homeTeamId={nextGame.home_team_id}
+            awayTeamId={nextGame.away_team_id}
+            gameType={nextGame.match_type === 'friendly' ? 'friendly' : 'fixture'}
+            onComplete={async () => {
+              await updateMatchStatus(nextGame.id, 'in_progress');
+              setShowPreGame(false);
+              const updated = await getNextGame(currentTeam.id);
+              setNextGame(updated);
+            }}
+            onCancel={() => setShowPreGame(false)}
+          />
+        </div>
+      )}
+
+      {/* Post-Game Wizard Overlay */}
+      {showPostGame && nextGame && (
+        <div className="fixed inset-0 bg-black bg-opacity-60 z-50 flex items-start justify-center overflow-y-auto py-8">
+          <PostGameWizard
+            gameId={nextGame.id}
+            homeTeamId={nextGame.home_team_id}
+            awayTeamId={nextGame.away_team_id}
+            gameType={nextGame.match_type === 'friendly' ? 'friendly' : 'fixture'}
+            onComplete={async () => {
+              setShowPostGame(false);
+              const updated = await getNextGame(currentTeam.id);
+              setNextGame(updated);
+            }}
+            onCancel={() => setShowPostGame(false)}
+          />
+        </div>
+      )}
     </CoachLayout>
   );
 }

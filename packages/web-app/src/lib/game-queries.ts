@@ -25,6 +25,7 @@ export async function getNextGame(teamId: string) {
       roster_lock_deadline,
       bounty_status,
       bounty_claimed_by,
+      status,
       home_score,
       away_score,
       result,
@@ -195,6 +196,41 @@ export async function getGameTeamInfo(gameId: string, teamId: string) {
     bothRostersLocked: bothLocked,
     isHome
   };
+}
+
+/**
+ * Update the status of a match
+ * @param gameId - Match UUID
+ * @param status - New status ('scheduled' | 'in_progress' | 'completed')
+ */
+export async function updateMatchStatus(gameId: string, status: 'scheduled' | 'in_progress' | 'completed') {
+  const updates: Record<string, any> = { status };
+  if (status === 'completed') updates.completed = true;
+
+  const { error } = await supabase
+    .from('matches')
+    .update(updates)
+    .eq('id', gameId);
+
+  if (error) throw error;
+}
+
+/**
+ * Get all active players for both teams in a match (for casualty selection)
+ * @param homeTeamId - Home team UUID
+ * @param awayTeamId - Away team UUID
+ */
+export async function getMatchPlayers(homeTeamId: string, awayTeamId: string) {
+  const { data, error } = await supabase
+    .from('players')
+    .select('id, name, position, team_id, status')
+    .in('team_id', [homeTeamId, awayTeamId])
+    .eq('status', 'active')
+    .is('deleted_at', null)
+    .order('name', { ascending: true });
+
+  if (error) throw error;
+  return data || [];
 }
 
 /**
