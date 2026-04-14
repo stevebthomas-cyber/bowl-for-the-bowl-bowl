@@ -1,3 +1,4 @@
+require('./load-env');
 const { createClient } = require('@supabase/supabase-js');
 const ExcelJS = require('exceljs');
 const path = require('path');

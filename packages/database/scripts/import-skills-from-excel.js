@@ -1,3 +1,4 @@
+require('./load-env');
 const { createClient } = require('@supabase/supabase-js');
 const XLSX = require('xlsx');
 
